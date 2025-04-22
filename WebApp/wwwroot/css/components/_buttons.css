@@ -1,0 +1,67 @@
+﻿.btn {
+    border-radius: 14px;
+    font-size: 1em;
+    font-weight: var(--font-semibold);
+    font-family: var(--font-standard);
+    padding: 0.5rem 1.5rem;
+}
+
+.btn-blue {
+    color: var(--btn-blue-text-color);
+    background-color: var(--btn-blue-background-color);
+    border-color: var(--btn-blue-border-color);
+    border-radius: 10px;
+    padding: 0.5rem;
+    width: 8rem;
+}
+
+    .btn-blue:hover {
+        color: var(--btn-blue-text-color-hover);
+        background-color: var(--btn-blue-background-color-hover);
+        border-color: var(--btn-blue-border-color-hover);
+    }
+
+.btn-grey {
+    color: var(--btn-grey-text-color);
+    background-color: var(--btn-grey-background-color);
+    border-color: var(--btn-grey-border-color);
+    border-radius: 8px;
+    padding: 0.5rem;
+    width: 8rem;
+}
+
+    .btn-grey:hover {
+        color: var(--btn-grey-text-color-hover);
+        background-color: var(--btn-grey-background-color-hover);
+        border-color: var(--btn-grey-border-color-hover);
+    }
+
+.btn-side-bar {
+    color: var(--blue-4);
+    background-color: rgba(45, 153, 255, 0.2);
+    border: none;
+    border-radius: 10px;
+    padding: 0.5rem;
+    width: 10rem;
+}
+
+    .btn-side-bar:hover {
+        color: var(--white-100);
+        background-color: var(--blue-4);
+        border-color: var(--btn-grey-border-color-hover);
+    }
+
+.btn-create {
+    text-align: center;
+    margin-top: 0;
+}
+
+.btn-login {
+    text-align: center;
+    margin-top: .5rem;
+    margin-bottom: 3rem;
+}
+
+.icon-button {
+    background-color: transparent;
+}

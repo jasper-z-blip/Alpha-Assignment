@@ -1,0 +1,16 @@
+﻿@model WebApp.Models.ViewModels.ProfileViewModel
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewData["Title"] = "My Profile";
+}
+
+<div class="background">
+    <div class="Account">
+        <h1>My Profile</h1>
+        <p><strong>Email:</strong> @Model.Email</p>
+        <p><strong>Username:</strong> @Model.UserName</p>
+        <form asp-action="Logout" method="post">
+            <button type="submit" class="btn btn-secondary">Logout</button>
+        </form>
+    </div>
+</div>

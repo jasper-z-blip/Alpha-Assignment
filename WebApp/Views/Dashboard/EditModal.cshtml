@@ -1,0 +1,89 @@
+﻿@model WebApp.Models.Projects
+
+<div id="editBackground" class="background" style="display: none;">
+    <div id="editPopup" class="pop-up-create-2">
+
+        <span id="closeEditPopup" class="close-popup">&times;</span>
+        <h1>Edit Project</h1>
+
+        <form id="edit-project-form" method="post" action="/Projects/Edit">
+
+            <input type="hidden" name="Id" value="@Model.Id" />
+
+            <div class="form-group">
+                <label class="info-text" for="ProjectName">Project Name</label>
+                <input type="text" class="form-control" name="ProjectName" placeholder="Project Name"
+                       value="@Model.ProjectName" required />
+            </div>
+
+            <div class="form-group">
+                <label class="info-text" for="ClientName">Client Name</label>
+                <input type="text" class="form-control" name="ClientName" placeholder="Client Name"
+                       value="@Model.ClientName" required />
+            </div>
+
+            <div class="form-group">
+                <label class="info-text" for="Description">Description</label>
+
+                <div id="quill-editor-edit" class="ql-container ql-snow" style="height: 150px;"></div>
+
+                <div id="custom-toolbar-edit" class="ql-toolbar ql-snow">
+                    <span class="ql-formats">
+                        <button class="ql-bold"></button>
+                        <button class="ql-italic"></button>
+                        <button class="ql-underline"></button>
+                    </span>
+                    <span class="ql-formats">
+                        <button class="ql-align" value=""></button>
+                        <button class="ql-align" value="center"></button>
+                        <button class="ql-align" value="right"></button>
+                    </span>
+                    <span class="ql-formats">
+                        <button class="ql-list" value="bullet"></button>
+                        <button class="ql-list" value="ordered"></button>
+                    </span>
+                    <span class="ql-formats">
+                        <button class="ql-link"></button>
+                    </span>
+                </div>
+
+                <input type="hidden" id="descriptionEditInput" name="Description" value="@Model.Description" />
+            </div>
+
+            <div class="form-group">
+                <label class="info-text" for="StartDate">Start Date</label>
+                <input type="date" class="form-control" name="StartDate"
+                       value="@(Model.StartDate.ToString("yyyy-MM-dd"))" required />
+            </div>
+
+            <div class="form-group">
+                <label class="info-text" for="EndDate">End Date</label>
+                <input type="date" class="form-control" name="EndDate"
+                       value="@(Model.EndDate.ToString("yyyy-MM-dd"))" required />
+            </div>
+
+            <div class="form-group">
+                <label class="info-text" for="Budget">Budget</label>
+                <input type="text" class="form-control" name="Budget" placeholder="$ 0"
+                       value="@Model.Budget" required />
+            </div>
+
+            <div class="form-group">
+                <label class="info-text" for="Status">Status</label>
+                @Html.DropDownListFor(
+                         model => model.Status,
+                         new SelectList(new List<SelectListItem>
+                {
+                new SelectListItem { Value = "Started", Text = "Started" },
+                new SelectListItem { Value = "Completed", Text = "Completed" }
+                }, "Value", "Text", Model.Status),
+                         new { @class = "form-control" }
+                         )
+            </div>
+
+            <div class="btn-create">
+                <button type="submit" class="btn btn-blue">Save Changes</button>
+            </div>
+        </form>
+    </div>
+</div>

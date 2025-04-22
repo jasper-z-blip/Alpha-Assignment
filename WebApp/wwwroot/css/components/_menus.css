@@ -1,0 +1,72 @@
+﻿.hidden {
+    display: none;
+}
+
+.user-menu-container,
+.cog-menu-container {
+    position: relative;
+    right: 1rem;
+}
+
+.user-menu {
+    position: absolute;
+    top: 2.5rem;
+    right: 3.5rem;
+    background-color: var(--white-100);
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    width: 14rem;
+    padding: 0.5rem 0;
+    z-index: 1000;
+}
+
+.cogMenu {
+    position: absolute;
+    top: 2.5rem;
+    right: 0;
+    background-color: var(--white-100);
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    width: 14rem;
+    padding: 0.5rem 0;
+    z-index: 1000;
+}
+.user-menu ul,
+.cogMenu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.user-menu ul li,
+.cogMenu ul li {
+padding: 0.75rem 1rem;
+text-align: left;
+font-family: var(--font-standard);
+cursor: pointer;
+transition: background-color 0.2s;
+}
+
+.user-menu ul li a,
+.cogMenu ul li a,
+.user-menu ul li button,
+.cogMenu ul li button {
+    text-decoration: none;
+    color: var(--black-100);
+    display: block;
+    width: 100%;
+    background: none;
+    border: none;
+    text-align: left;
+}
+
+#cog-icon, #user-icon {
+    background-color: transparent;
+    border: none;
+}
+
+.menu {
+    background:
+}

@@ -1,0 +1,172 @@
+﻿@model List<WebApp.Models.Projects>
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewData["Title"] = "Dashboard";
+
+    var startedCount = Model.Count(p => p.Status?.ToLower() == "started");
+    var completedCount = Model.Count(p => p.Status?.ToLower() == "completed");
+    var allCount = Model.Count + 7;
+}
+
+<div class="dashboard">
+    <!-- Sidebar -->
+    <div class="side-bar">
+        <a class="alpha-box" asp-controller="Home" asp-action="HomePage">
+            <img src="~/images/AlphaLogo.svg" asp-append-version="true" alt="Alpha Logotype" class="alphaLogo" />
+            <h2 class="alpha-text">alpha</h2>
+        </a>
+        <nav>
+            <button id="projectsBtn" class="btn-side-bar">
+                <img src="~/images/Blue-briefcase.svg" asp-append-version="true" alt="Projects" />
+                Projects
+            </button>
+        </nav>
+    </div>
+
+    <!-- Topbar -->
+    <header class="top-bar">
+        <div class="cog-menu-container">
+            <button id="cog-icon" class="icon-button">
+                <img src="~/images/Clog.svg" asp-append-version="true" alt="Cog" />
+            </button>
+            <div id="cogMenu" class="cogMenu hidden">
+                <ul>
+                    <li>
+                        <button id="settingsBtn" type="button" class="cog-btn">
+                            <i class="fa-solid fa-wrench"></i> Settings
+                        </button>
+                    </li>
+
+                    <li>
+                        <button id="darkModeBtn" type="button" class="cog-btn">
+                            <i class="fa-solid fa-lightbulb"></i> Dark Mode
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="user-menu-container">
+            <button id="user-icon" class="icon-button">
+                <img src="~/images/Man-in-yellow-circle.svg" asp-append-version="true" alt="User" />
+            </button>
+            <div id="user-menu" class="user-menu hidden">
+                <ul>
+                    <li class="profile-item">
+                        <img src="~/images/Man-in-yellow-circle.svg" asp-append-version="true" alt="User" />
+                        <span>@User.Identity.Name</span>
+                    </li>
+                    <li class="logout-btn-container">
+                        <form asp-controller="Account" asp-action="Logout" method="post">
+                            <button type="submit" class="logout-btn">
+                                <i class="fa-solid fa-arrow-right-from-bracket"></i> Logout
+                            </button>
+                        </form>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main content -->
+    <div class="main-content">
+        <div class="main-content-box">
+            <h1>Projects</h1>
+            <button id="openPopup" class="btn btn-blue">+ Add Project</button>
+        </div>
+
+        <div class="main-content-box-2 tabs">
+            <div class="tab active" data-status="all">ALL [@allCount]</div>
+            <div class="tab" data-status="started">STARTED [@startedCount]</div>
+            <div class="tab" data-status="completed">COMPLETED [@completedCount]</div>
+            <div class="slider"></div>
+        </div>
+
+        <div class="project-container">
+            @{
+                var titles = new[] { "Website Redesign", "Landing Page", "Parser Development", "App Development", "Admin Dashboard", "Web App on Vue.js", "App Development" };
+                var clients = new[] { "GitLab Inc.", "Bitbucket, Inc.", "Driveway, Inc.", "Slack Technologies, Inc.", "ArtTemplate, Inc.", "ArtTemplate, Inc.", "Facebook, Inc." };
+                var descriptions = new[] {
+            "It is necessary to develop a website redesign in a corporate style.",
+            "It is necessary to create a landing together with the development of design.",
+            "It is necessary to develop a ticket site parser in python.",
+            "Create a mobile application on iOS and Android devices.",
+            "Necessary to create Admin Dashboard on Angular 9.",
+            "It is necessary to develop a web app on the framework Vue.js",
+            "Create a mobile application on iOS and Android devices."
+            };
+            }
+
+            @for (int i = 0; i < 7; i++)
+            {
+                <div class="card" data-status="all">
+                    <div class="card-box">
+                        <img src="~/images/ProjectPicture.svg" asp-append-version="true" class="projectpicture" />
+                        <h3 class="card-h3">@titles[i]</h3>
+                        <img src="~/images/Two-dots.svg" asp-append-version="true" class="two-dots" />
+                        <p class="card-paragh">@clients[i]</p>
+                    </div>
+                    <p>@descriptions[i]</p>
+                    <div class="menu hidden">
+                        <ul>
+                            <li class="edit-project">✏️ Edit</li>
+                            <li style="color: gray; cursor: not-allowed;" title="Cannot delete hardcoded project">
+                                🗑️ Delete project
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            }
+
+            @foreach (var project in Model)
+            {
+                <div class="card" data-status="@project.Status?.ToLower()">
+                    <div class="card-box">
+                        <img src="~/images/ProjectPicture.svg" asp-append-version="true" class="projectpicture" />
+                        <h3 class="card-h3">@project.ProjectName</h3>
+                        <img src="~/images/Two-dots.svg" asp-append-version="true" class="two-dots" />
+                        <p class="card-paragh">@project.ClientName</p>
+                    </div>
+
+                    @Html.Raw(project.Description)
+
+                    <div class="menu hidden">
+                        <ul>
+                            <li class="edit-project"
+                                data-id="@project.Id"
+                                data-name="@project.ProjectName"
+                                data-client="@project.ClientName"
+                                data-description="@Html.Raw(project.Description)"
+                                data-start="@project.StartDate:yyyy-MM-dd"
+                                data-end="@project.EndDate:yyyy-MM-dd"
+                                data-status="@project.Status"
+                                data-budget="@project.Budget">
+                                ✏️ Edit
+                            </li>
+                            <li>
+                                <form method="post"
+                                      asp-controller="Projects"
+                                      asp-action="Delete"
+                                      asp-route-id="@project.Id"
+                                      class="delete-form"
+                                      style="display:inline;">
+                                    <button type="submit" class="btn btn-link p-0" style="color: red; text-decoration: none;">
+                                        🗑️ Delete project
+                                    </button>
+                                </form>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+@await Html.PartialAsync("AddModal")
+@await Html.PartialAsync("EditModal", new WebApp.Models.Projects())
+@await Html.PartialAsync("_ValidationModal")
+@await Html.PartialAsync("_DeleteConfirmModal")
+@await Html.PartialAsync("_DarkModeModal")
+@await Html.PartialAsync("_SettingsModal")
+

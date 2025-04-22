@@ -1,0 +1,14 @@
+﻿/* = FOOTER DEFAULT = */
+.footer {
+    margin-top: .5rem;
+    padding-top: 1rem;
+    text-align: center;
+    border-top: 1px solid var(--grey-300);
+}
+
+/* = FOOTER INSIDE POPUP = */
+.pop-up-create .footer,
+.pop-up-create-2 .footer {
+    margin-bottom: 0rem;
+    border-top: none;
+}

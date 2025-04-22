@@ -1,0 +1,142 @@
+﻿/* = OVERLAY & BLUR = */
+.background {
+    position: fixed;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(1px);
+}
+
+.popup-active {
+    pointer-events: auto;
+}
+
+.blur-effect {
+    filter: blur(1px);
+    transition: filter 0.3s ease;
+    pointer-events: none;
+}
+
+/* = POPUP BOX = */
+.pop-up-create, .pop-up-create-2 {
+    background-color: var(--white-100);
+    border-radius: 10px;
+    padding: 2rem;
+    margin: 1rem;
+    width: 100%;
+    max-width: 420px;
+    max-height: 95%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow-y: auto;
+}
+
+    .pop-up-create-2 .btn-create,
+    .pop-up-create .btn-create {
+        text-align: center;
+    }
+
+    .pop-up-create-2 .btn-blue,
+    .pop-up-create .btn-blue {
+        width: 100%;
+        min-width: 100%;
+        max-width: 100%;
+    }
+
+.close-popup {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--grey-700);
+    cursor: pointer;
+    z-index: 1001;
+}
+
+    .close-popup:hover {
+        color: var(--red-dark);
+    }
+
+/* = FORM ELEMENTS = */
+.form-control, .input-box {
+    border: 2px solid var(--grey-300);
+    border-radius: 8px;
+    padding: 0.5rem;
+    font-family: var(--font-standard);
+    font-size: 14px;
+    width: 100%;
+}
+
+.form-controll-big {
+    border: 2px solid var(--grey-300);
+    border-radius: 8px 8px 0 0;
+    padding: 0.5rem;
+    min-height: 6rem;
+    max-height: 8rem;
+    overflow-y: auto;
+    font-family: var(--font-standard);
+    font-size: 14px;
+}
+
+/* = TOOLBAR = */
+.toolbar {
+    border: 2px solid var(--grey-300);
+    border-top: none;
+    border-radius: 0 0 8px 8px;
+    padding: 0.5rem;
+    text-align: center;
+    background-color: var(--white-200);
+}
+
+.toolbar-btn {
+    border: none;
+    background: none;
+    margin: 0 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* = DATE INPUT ROW = */
+.date-choice-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+}
+
+.date-input label {
+    display: block;
+    font-size: 16px;
+    color: var(--grey-800);
+    margin-bottom: 0;
+}
+
+/* = BUDGET = */
+.budget-container {
+    margin-top: 1.5rem;
+}
+
+    .budget-container label {
+        display: block;
+        font-size: 16px;
+        color: var(--grey-800);
+    }
+
+    .budget-container .input-box {
+        width: 100%;
+        border-radius: 8px;
+        border: 2px solid var(--grey-300);
+    }
+
+/* = PROFILE IMAGE = */
+.profilePicture {
+    margin: 0 auto;
+    display: block;
+    max-width: 80px;
+    padding: 1.5rem 0;
+}

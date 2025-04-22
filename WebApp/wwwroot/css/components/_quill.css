@@ -1,0 +1,30 @@
+﻿#custom-toolbar,
+#custom-toolbar-edit {
+    border: 2px solid var(--grey-300);
+    border-radius: 0;
+    display: flex;
+}
+
+.ql-toolbar.ql-snow {
+    border-top: none;
+    border-radius: 0 0 10px 10px;
+}
+
+.ql-container.ql-snow {
+    border-radius: 0 0 8px 8px;
+    font-family: var(--font-standard);
+    font-size: 10px;
+}
+
+.ql-editor {
+    font-family: var(--font-standard);
+    min-height: 150px;
+    font-size: 1rem;
+}
+
+#quill-editor,
+#quill-editor-edit {
+    border: 2px solid var(--grey-300);
+    border-radius: 10px 10px 0 0;
+    border-bottom: none;
+}

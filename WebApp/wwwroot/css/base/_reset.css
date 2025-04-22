@@ -1,0 +1,18 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    min-height: 100vh;
+    font-family: var(--font-standard);
+    font-size: 16px;
+    font-weight: var(--font-regular);
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+i, ul {
+    cursor: pointer;
+}

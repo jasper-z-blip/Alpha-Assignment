@@ -1,0 +1,49 @@
+﻿.project-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.project-filters {
+    display: flex;
+    gap: 1rem;
+    font-weight: var(--font-semibold);
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+    .project-filters ul:hover {
+        text-decoration: underline;
+    }
+
+.tabs {
+    display: flex;
+    position: relative;
+    gap: 2rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid var(--grey-300);
+    font-weight: var(--font-semibold);
+}
+
+.tab {
+    cursor: pointer;
+    color: var(--grey-700);
+    position: relative;
+    padding-bottom: 0.5rem;
+}
+
+    .tab.active {
+        color: var(--blue-2);
+    }
+
+.slider {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 3px;
+    background-color: var(--blue-2);
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}

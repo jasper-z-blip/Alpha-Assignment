@@ -1,0 +1,70 @@
+﻿<div id="addBackground" class="background" style="display: none;">
+    <div class="pop-up-create">
+
+        <span id="closePopup" class="close-popup">&times;</span>
+        <h1>Add Project</h1>
+
+        <form id="pop-up-project" method="post" action="/Projects/Create" novalidate>
+
+            <div class="form-group">
+                <label class="info-text" for="ProjectName">Project Name</label>
+                <input type="text" class="form-control" name="ProjectName" placeholder="Project Name" required autocomplete="off" />
+            </div>
+
+            <div class="form-group">
+                <label class="info-text" for="ClientName">Client Name</label>
+                <input type="text" class="form-control" name="ClientName" placeholder="Client Name" required autocomplete="off" />
+            </div>
+
+            <div class="form-group">
+                <label class="info-text" for="Description">Description <small>(optional)</small></label>
+
+                <div id="quill-editor" style="height: 150px;"></div>
+
+                <div id="custom-toolbar" class="ql-toolbar ql-snow" style="margin-top:10px;">
+                    <span class="ql-formats">
+                        <button class="ql-bold"></button>
+                        <button class="ql-italic"></button>
+                        <button class="ql-underline"></button>
+                    </span>
+                    <span class="ql-formats">
+                        <button class="ql-list" value="ordered"></button>
+                        <button class="ql-list" value="bullet"></button>
+                    </span>
+                    <span class="ql-formats">
+                        <button class="ql-link"></button>
+                    </span>
+                </div>
+
+                <input type="hidden" id="descriptionInput" name="Description" />
+            </div>
+
+            <div class="form-group">
+                <label class="info-text" for="StartDate">Start Date</label>
+                <input type="date" class="form-control" name="StartDate" required />
+            </div>
+
+            <div class="form-group">
+                <label class="info-text" for="EndDate">End Date</label>
+                <input type="date" class="form-control" name="EndDate" required />
+            </div>
+
+            <div class="form-group">
+                <label class="info-text" for="Budget">Budget</label>
+                <input type="text" class="form-control" name="Budget" placeholder="$ 0" required />
+            </div>
+
+            <div class="form-group">
+                <label class="info-text" for="Status">Status</label>
+                <select class="form-control" name="Status">
+                    <option value="Started">Started</option>
+                    <option value="Completed">Completed</option>
+                </select>
+            </div>
+
+            <div class="btn-create">
+                <button type="submit" class="btn btn-blue">Add Project</button>
+            </div>
+        </form>
+    </div>
+</div>

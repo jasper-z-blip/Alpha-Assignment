@@ -1,0 +1,166 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    min-height: 100vh;
+    font-family: sans-serif;
+    background-color: var(--background-color, #f0f0f0);
+    color: var(--text-color, #333);
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: 600;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    padding: 1rem;
+    background: linear-gradient(90deg, #d64ca3, #ff7b00, #5f76f3);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+}
+
+.main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.alphaBoxStartPage {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 0.4rem;
+    position: absolute;
+    left: 35%;
+    transform-origin: center center;
+    z-index: 1;
+    margin-bottom: 12rem;
+    text-decoration: none;
+    animation: zoomAndMoveDown 3s ease forwards;
+}
+
+    .alphaBoxStartPage.move-down {
+        position: absolute;
+        left: 50%;
+        animation: moveAndScaleDown 1s ease forwards;
+    }
+
+        .alphaBoxStartPage.move-down .alphaLogo {
+            width: 120px;
+        }
+
+        .alphaBoxStartPage.move-down .alpha-text {
+            font-size: 5rem;
+        }
+
+.alphaLogo {
+    width: 80px;
+    height: auto;
+}
+
+.alpha-text {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.button-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    z-index: 2;
+    opacity: 1;
+    margin-bottom: 26rem;
+}
+
+    .button-wrapper:not(.hidden) {
+        animation: slideFadeIn 1s ease forwards;
+    }
+
+.home-login, .home-register {
+    margin: 0;
+}
+
+.loginBtn, .regBtn {
+    padding: 2rem 6rem;
+    background-color: var(--blue-4, #1e88e5);
+    color: white;
+    font-size: 60px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+    transition: background-color 0.4s ease-in-out;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+}
+
+.loginBtn {
+    width: 26rem;
+}
+
+    .loginBtn:hover, .regBtn:hover {
+        background-color: var(--orange-dark, #d35400);
+        text-decoration: none;
+        box-shadow: 0 12px 24px rgba(0, 0, 0, 0.25);
+    }
+
+.hidden {
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.5s ease;
+}
+
+.footer {
+    text-align: center;
+    padding: 1rem 0;
+}
+
+@keyframes zoomAndMoveDown {
+    0% {
+        opacity: 0;
+        bottom: 50%;
+        transform: translate(-50%, 50%) scale(0.5);
+    }
+
+    40% {
+        opacity: 1;
+        transform: translate(-50%, 50%) scale(1.5);
+    }
+
+    100% {
+        bottom: 3rem;
+        transform: translate(-50%, 0) scale(6.5);
+    }
+}
+
+@keyframes slideFadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

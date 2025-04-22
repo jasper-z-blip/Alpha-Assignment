@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
+/* = BASE = */
+@import url('base/_variables.css');
+@import url('base/_typography.css');
+@import url('base/_reset.css');
+@import url('base/_utilities.css');
+
+/* = LAYOUT = */
+@import url('layout/_layout.css');
+@import url('layout/_footer.css');
+
+/* = COMPONENTS = */
+@import url('components/_buttons.css');
+@import url('components/_cards.css');
+@import url('components/_menus.css');
+@import url('components/_popup.css');
+@import url('components/_quill.css');
+
+/* = PAGES = */
+@import url('pages/_start.css');
+@import url('pages/_account.css');
+@import url('pages/_login.css');
+@import url('pages/_projects.css');
+@import url('pages/_create.css');
+@import url('pages/_homepage.css');

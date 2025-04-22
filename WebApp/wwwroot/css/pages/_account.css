@@ -1,0 +1,43 @@
+﻿.terms-conditions-container {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 14px;
+    gap: 0.4rem;
+    color: var(--text-color);
+
+}
+
+    .terms-conditions-container label,
+    .terms-conditions-container a {
+        display: inline;
+    }
+
+.link-no-underline {
+    margin-left: .5rem;
+    color: var(--blue-2);
+}
+
+.custom-checkbox {
+    transform: translateY(5px);
+}
+
+.accountNo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.create-paragh {
+    text-align: center;
+    font-size: 14px;
+    color: var(--text-color);
+    margin: 0;
+    padding-top: 4rem;
+}
+
+.create-paragh a {
+    color: var(--blue-2);
+}
