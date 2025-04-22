@@ -193,3 +193,4 @@ C:\Projects\Alpha-Assignment\WebApp\obj\Debug\net9.0\compressed\ppiodxmo3f-xtmkk
 C:\Projects\Alpha-Assignment\WebApp\obj\Debug\net9.0\compressed\540or2rzvj-iginizigxw.gz
 C:\Projects\Alpha-Assignment\WebApp\obj\Debug\net9.0\compressed\t5dxnmt0uq-nhoeaa793j.gz
 C:\Projects\Alpha-Assignment\WebApp\obj\Debug\net9.0\compressed\09bly58mrx-c6908l03ti.gz
+C:\Projects\Alpha-Assignment\WebApp\obj\Debug\net9.0\WebApp.sourcelink.json

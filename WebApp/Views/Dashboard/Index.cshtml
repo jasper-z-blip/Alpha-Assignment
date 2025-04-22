@@ -5,7 +5,7 @@
 
     var startedCount = Model.Count(p => p.Status?.ToLower() == "started");
     var completedCount = Model.Count(p => p.Status?.ToLower() == "completed");
-    var allCount = Model.Count + 7;
+    var allCount = Model.Count;
 }
 
 <div class="dashboard">
@@ -36,7 +36,6 @@
                             <i class="fa-solid fa-wrench"></i> Settings
                         </button>
                     </li>
-
                     <li>
                         <button id="darkModeBtn" type="button" class="cog-btn">
                             <i class="fa-solid fa-lightbulb"></i> Dark Mode
@@ -83,41 +82,6 @@
         </div>
 
         <div class="project-container">
-            @{
-                var titles = new[] { "Website Redesign", "Landing Page", "Parser Development", "App Development", "Admin Dashboard", "Web App on Vue.js", "App Development" };
-                var clients = new[] { "GitLab Inc.", "Bitbucket, Inc.", "Driveway, Inc.", "Slack Technologies, Inc.", "ArtTemplate, Inc.", "ArtTemplate, Inc.", "Facebook, Inc." };
-                var descriptions = new[] {
-            "It is necessary to develop a website redesign in a corporate style.",
-            "It is necessary to create a landing together with the development of design.",
-            "It is necessary to develop a ticket site parser in python.",
-            "Create a mobile application on iOS and Android devices.",
-            "Necessary to create Admin Dashboard on Angular 9.",
-            "It is necessary to develop a web app on the framework Vue.js",
-            "Create a mobile application on iOS and Android devices."
-            };
-            }
-
-            @for (int i = 0; i < 7; i++)
-            {
-                <div class="card" data-status="all">
-                    <div class="card-box">
-                        <img src="~/images/ProjectPicture.svg" asp-append-version="true" class="projectpicture" />
-                        <h3 class="card-h3">@titles[i]</h3>
-                        <img src="~/images/Two-dots.svg" asp-append-version="true" class="two-dots" />
-                        <p class="card-paragh">@clients[i]</p>
-                    </div>
-                    <p>@descriptions[i]</p>
-                    <div class="menu hidden">
-                        <ul>
-                            <li class="edit-project">✏️ Edit</li>
-                            <li style="color: gray; cursor: not-allowed;" title="Cannot delete hardcoded project">
-                                🗑️ Delete project
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            }
-
             @foreach (var project in Model)
             {
                 <div class="card" data-status="@project.Status?.ToLower()">
@@ -169,4 +133,5 @@
 @await Html.PartialAsync("_DeleteConfirmModal")
 @await Html.PartialAsync("_DarkModeModal")
 @await Html.PartialAsync("_SettingsModal")
+
 
