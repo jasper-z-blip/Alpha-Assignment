@@ -216,7 +216,6 @@ namespace WebApp.Migrations
                         .HasColumnType("INTEGER");
 
                     b.Property<string>("Budget")
-                        .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.Property<string>("ClientName")
@@ -224,7 +223,6 @@ namespace WebApp.Migrations
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Description")
-                        .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.Property<DateTime>("EndDate")
@@ -238,7 +236,6 @@ namespace WebApp.Migrations
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Status")
-                        .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.Property<string>("UserId")

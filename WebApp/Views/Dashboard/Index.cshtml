@@ -8,6 +8,8 @@
     var allCount = Model.Count;
 }
 
+@using WebApp.Helpers
+
 <div class="dashboard">
     <!-- Sidebar -->
     <div class="side-bar">
@@ -92,7 +94,16 @@
                         <p class="card-paragh">@project.ClientName</p>
                     </div>
 
-                    @Html.Raw(project.Description)
+                    @if (!DescriptionHelper.IsHtmlEffectivelyEmpty(project.Description))
+                    {
+                        <div class="card-description">
+                            @Html.Raw(project.Description)
+                        </div>
+                    }
+                    else
+                    {
+                        <p class="card-description"><em>No description available..</em></p>
+                    }
 
                     <div class="menu hidden">
                         <ul>

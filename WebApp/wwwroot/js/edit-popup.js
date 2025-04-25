@@ -45,9 +45,10 @@ document.addEventListener("DOMContentLoaded", function () {
                 idInput.value = button.dataset.id;
             }
 
+            //Hjälp chatGPT.
             const quillEditElement = document.getElementById("quill-editor-edit");
-            if (quillEditElement) {
-                if (!quillEdit) {
+            if (quillEditElement) { //Om det finns en edit med rätt ID.
+                if (!quillEdit) { //Om det inte inte finns initierat quillEdit så skapar vi en ny quillEdit.
                     quillEdit = new Quill("#quill-editor-edit", {
                         theme: "snow",
                         modules: {
@@ -58,6 +59,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 }
 
                 quillEdit.root.innerHTML = button.dataset.description || "";
+            // Om det inte finns eller hittas ett element så skrivs en varning ut.
             } else {
                 console.warn("Elementet med id 'quill-editor-edit' hittades inte, Quill-editor för redigering initieras inte.");
             }
@@ -84,6 +86,7 @@ document.addEventListener("DOMContentLoaded", function () {
                         if (!isValid) {
                             e.preventDefault();
                         }
+                    // Hjälp med varningen från chatGpt. Skrivs ut om inte quill är definerad.
                     } else {
                         console.warn("quillEdit är inte definierad, kan inte validera input.");
                         e.preventDefault();

@@ -14,7 +14,7 @@ export function validateFormInput(quillInstance, container) {
     const endDate = dateInputs[1];
     const budget = container.querySelector('input[placeholder="$ 0"]');
 
-    console.log("✅ NY validation-fil laddad");
+    console.log("Ny validation-fil laddad");
 
     if (!projectName.value.trim()) {
         showValidationModal('Project name is required');
@@ -25,8 +25,6 @@ export function validateFormInput(quillInstance, container) {
         showValidationModal('Client name is required');
         return false;
     }
-
-    // Tog bort validering på descrition men den validerar den ändå. Har löst det nu så behöver prova lägga in validering igen.
 
     if (!startDate.value || !endDate.value) {
         showValidationModal('Start and end date are required');

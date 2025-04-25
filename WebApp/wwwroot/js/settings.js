@@ -9,12 +9,11 @@
                 const modal = new bootstrap.Modal(modalElement);
                 modal.show();
             } else {
-                console.warn("⚙️ Settings-modal saknas i DOM.");
+                console.warn("Settings-modal saknas i DOM.");
             }
         });
     }
 });
-
 
 document.addEventListener("DOMContentLoaded", () => {
     const darkModeBtn = document.getElementById("darkModeBtn");
@@ -26,7 +25,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 const modal = new bootstrap.Modal(modalElement);
                 modal.show();
             } else {
-                console.warn("🌓 Dark Mode-modal saknas i DOM.");
+                console.warn("Dark Mode-modal saknas i DOM.");
             }
         });
     }

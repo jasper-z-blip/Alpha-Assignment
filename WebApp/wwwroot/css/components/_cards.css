@@ -1,4 +1,6 @@
 ﻿.card {
+    min-width: 240px;
+    min-height: 220px;
     position: relative;
     background-color: var(--white-100);
     border: none;
@@ -6,7 +8,7 @@
     box-shadow: var(--card-shadow);
     padding: 1.5rem;
     margin: 0.5rem 0;
-    width: 100%;
+    max-width: 400px;
 }
 
 .card-box {
@@ -50,4 +52,12 @@
     width: 24px;
     height: 24px;
     cursor: pointer;
+}
+
+.card-description {
+    margin: .4rem;
+}
+
+p {
+    margin: 0;
 }

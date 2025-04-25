@@ -42,11 +42,6 @@ public class ProjectsController : Controller
     [HttpPost]
     public async Task<IActionResult> Edit(Projects project)
     {
-        if (string.IsNullOrEmpty(project.Description))
-        {
-            ModelState.AddModelError("Description", "Description field is required.");
-        }
-
         if (!ModelState.IsValid)
         {
             return BadRequest(ModelState);

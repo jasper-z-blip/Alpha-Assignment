@@ -21,7 +21,7 @@
                 <input type="text" class="form-control" name="ClientName" placeholder="Client Name"
                        value="@Model.ClientName" required />
             </div>
-
+     
             <div class="form-group">
                 <label class="info-text" for="Description">Description</label>
 
@@ -85,5 +85,28 @@
                 <button type="submit" class="btn btn-blue">Save Changes</button>
             </div>
         </form>
+        
+        <script>
+            //Koden här nedanför är tagen från chatGPT
+            const quillEdit = new Quill('#quill-editor-edit', {
+                modules: {
+                    toolbar: '#custom-toolbar-edit'
+                },
+                theme: 'snow'
+            });
+
+            // När användaren öppnar edit-modalen
+            document.querySelectorAll('.edit-project').forEach(button => {
+                button.addEventListener('click', () => {
+                    const description = button.getAttribute('data-description') || "";
+
+                    // Sätt Quill med ny text
+                    quillEdit.root.innerHTML = description;
+
+                    // Synka hidden input också
+                    document.getElementById("descriptionEditInput").value = description;
+                });
+            });
+        </script>
     </div>
 </div>

@@ -47,21 +47,21 @@ document.addEventListener("DOMContentLoaded", function () {
         createForm.addEventListener("submit", function (e) {
             const descriptionInput = document.getElementById("descriptionInput");
 
-            if (quill && descriptionInput) {
-                descriptionInput.value = quill.root.innerHTML;
-            }
-
             if (!quill) {
-                console.warn("❌ Quill-editor är inte initierad!");
+                console.warn("Quill-editor är inte initierad!");
                 e.preventDefault();
                 return;
+            }
+
+            if (quill && descriptionInput) {
+                console.log("Skickar detta som description:", quill.root.innerHTML);
+                descriptionInput.value = quill.root.innerHTML;
             }
 
             const isValid = validateFormInput(quill, createForm);
 
             if (!isValid) {
                 e.preventDefault();
-                return;
             }
         });
     }
