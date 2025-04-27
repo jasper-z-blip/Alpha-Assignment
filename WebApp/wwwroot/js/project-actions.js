@@ -2,10 +2,13 @@
     const projectsBtn = document.getElementById("projectsBtn");
     const projectContainer = document.querySelector(".project-container");
 
+    // Hjälp chatGPT, Eventlyssnare på projectBtn. Så när man klickar på knappen så går det från synlig till dold.
     projectsBtn?.addEventListener("click", function () {
         if (projectContainer.style.display === "none" || projectContainer.style.display === "") {
+            // Gör den synlig genom att sätta display till "grid".
             projectContainer.style.display = "grid";
         } else {
+            // Om den redan är synlig, döljs den genom att sätta display till "none".
             projectContainer.style.display = "none";
         }
     });

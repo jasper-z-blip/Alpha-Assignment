@@ -1,4 +1,7 @@
-﻿import { validateFormInput, showValidationModal } from './validations.js';
+﻿// Ser även här att jag initierar quill två ggr, ska fixa om jag hinner (note till mig själv, ev funktion istället).
+// Mall från ChatGPT men anpassad och implementerad av mig själv.
+
+import { validateFormInput, showValidationModal } from './validations.js';
 
 document.addEventListener("DOMContentLoaded", function () {
     const dashboard = document.querySelector(".dashboard");
@@ -19,6 +22,7 @@ document.addEventListener("DOMContentLoaded", function () {
             placeholder: "Type something..."
         });
 
+        // Uppdatera beskrivningen i formuläret när användaren skriver i Quill.
         quill.on('text-change', function () {
             const descriptionInput = document.getElementById("descriptionInput");
             if (descriptionInput) {
@@ -27,6 +31,7 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     }
 
+    // Öppnar popup när man trycker på knappen.
     if (openPopupBtn && popupBackground && dashboard) {
         openPopupBtn.addEventListener("click", function () {
             popupBackground.style.display = "flex";
@@ -73,7 +78,9 @@ document.addEventListener("DOMContentLoaded", function () {
         tab.addEventListener("click", () => {
             const status = tab.getAttribute("data-status");
 
+            //ta bort active från flikarna.
             tabs.forEach(t => t.classList.remove("active"));
+            //Lägg till active på fliken användaren har klickat på. Så den väljs.
             tab.classList.add("active");
 
             cards.forEach(card => {
@@ -83,6 +90,7 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 
+    // Standard är första fliken [ALL].
     if (tabs.length > 0) {
         tabs[0].click();
     }

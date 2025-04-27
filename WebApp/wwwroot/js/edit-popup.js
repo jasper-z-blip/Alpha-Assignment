@@ -1,4 +1,7 @@
-﻿import { validateFormInput, showValidationModal } from './validations.js';
+﻿// Kod för att hantera projektredigering i en popup och Quill Editor.
+// Mall från ChatGPT men anpassad och implementerad av mig själv. (Mycket hjälp av hur jag skrev ihop popup.js)
+
+import { validateFormInput, showValidationModal } from './validations.js';
 
 let quillEdit;
 
@@ -10,6 +13,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
             const editBackground = document.getElementById("editBackground");
             const editPopup = document.getElementById("editPopup");
+
+            // Helt taget från chatGPT. Om popupen eller bakgrunden inte finns, skriv en varning och avsluta funktionen.
             if (!editBackground || !editPopup) {
                 console.warn("Edit-popupen hittades inte på sidan.");
                 return;

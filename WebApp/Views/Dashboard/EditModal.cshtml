@@ -23,7 +23,7 @@
             </div>
      
             <div class="form-group">
-                <label class="info-text" for="Description">Description</label>
+                <label class="info-text" for="Description">Description <small>(optional)</small></label>
 
                 <div id="quill-editor-edit" class="ql-container ql-snow" style="height: 150px;"></div>
 
@@ -95,15 +95,15 @@
                 theme: 'snow'
             });
 
-            // När användaren öppnar edit-modalen
+            // När användaren öppnar edit-modalen.
             document.querySelectorAll('.edit-project').forEach(button => {
                 button.addEventListener('click', () => {
                     const description = button.getAttribute('data-description') || "";
 
-                    // Sätt Quill med ny text
+                    // Sätt Quill med ny text.
                     quillEdit.root.innerHTML = description;
 
-                    // Synka hidden input också
+                    // Synka hidden input också.
                     document.getElementById("descriptionEditInput").value = description;
                 });
             });

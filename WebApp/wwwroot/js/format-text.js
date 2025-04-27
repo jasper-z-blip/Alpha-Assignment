@@ -1,4 +1,7 @@
-﻿let quill;
+﻿// Denna kod är skriven med hjälp av diskussioner och exempel från ChatGPT.
+// Funktionen hanterar öppning av popup för projektredigering och använder Quill-editor för att redigera beskrivningen.
+// Ser att jag initierar quill två ggr, ska fixa om jag hinner (note till mig själv, ev funktion istället).
+let quill;
 
 document.getElementById('openPopup').addEventListener('click', () => {
     if (!quill) {
@@ -19,11 +22,12 @@ document.querySelectorAll('.edit-project').forEach(button => {
         const editBackground = document.getElementById('editBackground');
         const dashboard = document.querySelector('.dashboard');
 
+        // Visar popup och applicera blur-effekt på dashboard.
         editBackground.style.display = 'flex';
         editBackground.classList.add('popup-active');
         dashboard.classList.add('blur-effect');
 
-        // Starta Quill – men bara en gång
+        // Starta Quill, men bara en gång.
         setTimeout(() => {
             if (!quillEdit) {
                 quillEdit = new Quill('#quill-editor-edit', {
@@ -51,6 +55,6 @@ document.querySelectorAll('.edit-project').forEach(button => {
                 editBtn.dataset.listenerAdded = 'true';
             }
 
-        }, 100);
+        }, 100); // Timeout för att säkerställa att Quill initieras på rätt sätt och hinner initieras.
     });
 });
