@@ -1,7 +1,7 @@
 ﻿#custom-toolbar,
 #custom-toolbar-edit {
     border: 2px solid var(--grey-300);
-    border-radius: 0;
+    border-radius: 0 0 10px 10px;
     display: flex;
 }
 

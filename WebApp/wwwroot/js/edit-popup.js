@@ -64,7 +64,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 }
 
                 quillEdit.root.innerHTML = button.dataset.description || "";
-            // Om det inte finns eller hittas ett element så skrivs en varning ut.
+                // Om det inte finns eller hittas ett element så skrivs en varning ut.
             } else {
                 console.warn("Elementet med id 'quill-editor-edit' hittades inte, Quill-editor för redigering initieras inte.");
             }
@@ -91,7 +91,7 @@ document.addEventListener("DOMContentLoaded", function () {
                         if (!isValid) {
                             e.preventDefault();
                         }
-                    // Hjälp med varningen från chatGpt. Skrivs ut om inte quill är definerad.
+                        // Hjälp med varningen från chatGpt. Skrivs ut om inte quill är definerad.
                     } else {
                         console.warn("quillEdit är inte definierad, kan inte validera input.");
                         e.preventDefault();

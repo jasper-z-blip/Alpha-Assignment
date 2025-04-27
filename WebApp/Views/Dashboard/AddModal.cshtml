@@ -1,4 +1,4 @@
-﻿<div id="addBackground" class="background" style="display: none;">
+﻿﻿<div id="addBackground" class="background" style="display: none;">
     <div class="pop-up-create">
 
         <span id="closePopup" class="close-popup">&times;</span>
@@ -21,12 +21,19 @@
 
                 <div id="quill-editor" style="height: 150px;"></div>
 
-                <div id="custom-toolbar" class="ql-toolbar ql-snow" style="margin-top:10px;">
+                <div id="custom-toolbar" class="ql-toolbar ql-snow">
                     <span class="ql-formats">
                         <button class="ql-bold"></button>
                         <button class="ql-italic"></button>
                         <button class="ql-underline"></button>
                     </span>
+
+                    <span class="ql-formats">
+                        <button class="ql-align" value=""></button>
+                        <button class="ql-align" value="center"></button>
+                        <button class="ql-align" value="right"></button>
+                    </span>
+
                     <span class="ql-formats">
                         <button class="ql-list" value="ordered"></button>
                         <button class="ql-list" value="bullet"></button>
@@ -68,7 +75,7 @@
         </form>
 
         <script>
-            //ChatGpt la till detta då fungerar Det att addera projekt och få med description.
+            // Description fungerar inte om jag flyttar detta till popup.js, lämnar kvar det här for now.
             const quillAdd = new Quill('#quill-editor', {
                 modules: {
                     toolbar: '#custom-toolbar'
