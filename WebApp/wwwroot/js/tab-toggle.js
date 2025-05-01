@@ -1,5 +1,7 @@
 ﻿document.addEventListener("DOMContentLoaded", function () {
     const tabsContainer = document.querySelector(".tabs");
+    if (!tabsContainer) return;
+
     const tabItems = tabsContainer.querySelectorAll(".tab");
     const slider = tabsContainer.querySelector(".slider");
     const projectCards = document.querySelectorAll(".card");
@@ -16,7 +18,7 @@
     // Hämtar aktiv flik (class = "active").
     // Finns det en aktiv flik så åker slidern till den.
     const activeTab = tabsContainer.querySelector(".tab.active");
-    if (activeTab) moveSliderTo(activeTab); 
+    if (activeTab) moveSliderTo(activeTab);
 
     // Lägg till eventlistener på varje flik för att byta flik och filtrera kort.
     tabItems.forEach(tab => {

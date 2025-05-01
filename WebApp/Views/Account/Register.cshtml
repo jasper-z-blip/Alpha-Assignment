@@ -1,4 +1,5 @@
 ﻿@model WebApp.Models.ViewModels.RegisterViewModel
+
 @{
     Layout = "~/Views/Shared/_Layout.cshtml";
     ViewData["Title"] = "Create Account";
@@ -7,55 +8,99 @@
 <div class="background">
     <div class="Account">
         <h1>Create Account</h1>
-        <form asp-action="Register" method="post">
+
+        <form id="registerForm"
+              asp-controller="Account"
+              asp-action="Register"
+              method="post"
+              novalidate>
+
+            @Html.AntiForgeryToken()
             <div asp-validation-summary="All" class="text-danger"></div>
 
             <div class="form-group">
                 <label asp-for="Email" class="info-text"></label>
-                <input asp-for="Email" class="form-control" placeholder="Your email address" />
+                <input asp-for="Email"
+                       id="Email"
+                       class="form-control"
+                       placeholder="Your email address" />
                 <span asp-validation-for="Email" class="text-danger"></span>
             </div>
 
             <div class="form-group">
                 <label asp-for="Password" class="info-text"></label>
-                <input asp-for="Password" type="password" class="form-control" placeholder="Enter your password" />
+                <input asp-for="Password"
+                       id="Password"
+                       type="password"
+                       class="form-control"
+                       placeholder="Enter your password" />
                 <span asp-validation-for="Password" class="text-danger"></span>
             </div>
 
             <div class="form-group">
                 <label asp-for="ConfirmPassword" class="info-text"></label>
-                <input asp-for="ConfirmPassword" type="password" class="form-control" placeholder="Confirm your password" />
+                <input asp-for="ConfirmPassword"
+                       id="ConfirmPassword"
+                       type="password"
+                       class="form-control"
+                       placeholder="Confirm your password" />
                 <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
             </div>
 
             <div class="terms-conditions-container">
-                <input asp-for="AcceptTerms" type="checkbox" class="custom-checkboxReg" id="terms" />
-                <label for="terms">
+                <input asp-for="AcceptTerms"
+                       id="AcceptTerms"
+                       type="checkbox"
+                       class="custom-checkboxReg" />
+                <label asp-for="AcceptTerms">
                     I accept <a href="#" class="link-no-underline">Terms and Conditions</a>
                 </label>
                 <span asp-validation-for="AcceptTerms" class="text-danger"></span>
             </div>
 
             <div class="btn-create">
-                <button type="submit" class="btn btn-blue btn-login">Create Account</button>
+                <button type="submit" class="btn btn-blue btn-login">
+                    Create Account
+                </button>
             </div>
         </form>
 
-        @section Scripts {
-            <partial name="_ValidationScriptsPartial" />
-            <script>
-              document.querySelector("form").addEventListener("submit", function (e) {
-                if (!this.checkValidity()) {
-                  e.preventDefault();
-                }
-              });
-            </script>
-        }
         <div class="accountNo">
             <p class="create-paragh">
                 Already have an account?
-                <a asp-controller="Account" asp-action="Login" class="link-no-underline">Login</a>
+                <a asp-controller="Account"
+                   asp-action="Login"
+                   class="link-no-underline">Login</a>
             </p>
         </div>
     </div>
 </div>
+
+@section Scripts {
+    <script>
+        $(function() {
+          $("#registerForm").validate({
+            rules: {
+              Email:           { required: true, email: true },
+              Password:        { required: true, minlength: 6 },
+              ConfirmPassword: { required: true, equalTo: "#Password" },
+              AcceptTerms:     { required: true }
+            },
+            messages: {
+              Email:           { required: "Please enter your email.", email: "Enter a valid email address." },
+              Password:        { required: "Please enter a password.", minlength: "Password must be at least 6 characters." },
+              ConfirmPassword: { required: "Please confirm your password.", equalTo: "Passwords must match." },
+              AcceptTerms:     "You must accept the terms."
+            },
+            errorClass: "text-danger",
+            errorPlacement: function(error, element) {
+              if (element.attr("type") === "checkbox") {
+                error.insertAfter(element.next("label"));
+              } else {
+                error.insertAfter(element);
+              }
+            }
+          });
+        });
+    </script>
+}

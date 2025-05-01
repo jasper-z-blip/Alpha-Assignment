@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "joEA3NRfPbyY3MvmbUuGNGIVxC1mPlBU0ea5oahQpQY=",
+  "Hash": "DjqbPAkIzeYkGlj7mrYpfZggWXcu1785+5bza1sgGlU=",
   "Source": "WebApp",
   "BasePath": "_content/WebApp",
   "Mode": "Default",
@@ -59,12 +59,12 @@
       "OriginalItemSpec": "C:\\Projects\\Alpha-Assignment\\WebApp\\wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Projects\\Alpha-Assignment\\WebApp\\obj\\Debug\\net9.0\\compressed\\3xs3n2q4h8-1gzr4bpghe.gz",
+      "Identity": "C:\\Projects\\Alpha-Assignment\\WebApp\\obj\\Debug\\net9.0\\compressed\\3xs3n2q4h8-xb9zg75sn2.gz",
       "SourceId": "WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Projects\\Alpha-Assignment\\WebApp\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/WebApp",
-      "RelativePath": "css/style#[.{fingerprint=1gzr4bpghe}]?.css.gz",
+      "RelativePath": "css/style#[.{fingerprint=xb9zg75sn2}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -73,8 +73,8 @@
       "RelatedAsset": "C:\\Projects\\Alpha-Assignment\\WebApp\\wwwroot\\css\\style.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "lkfw8qeqjb",
-      "Integrity": "1SY9QXLIHc4NpNiCL2U75/IY1aw4DQE8LIxJqwwAI60=",
+      "Fingerprint": "8mv8pj7xd2",
+      "Integrity": "8BgqAem9b5yMindc5H2phAcoAigm9q02GPqvn57IxlA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Projects\\Alpha-Assignment\\WebApp\\wwwroot\\css\\style.css"
@@ -185,12 +185,12 @@
       "OriginalItemSpec": "C:\\Projects\\Alpha-Assignment\\WebApp\\wwwroot\\css\\components\\_cards.css"
     },
     {
-      "Identity": "C:\\Projects\\Alpha-Assignment\\WebApp\\obj\\Debug\\net9.0\\compressed\\8h0pcz0nz0-0fgvxmclnx.gz",
+      "Identity": "C:\\Projects\\Alpha-Assignment\\WebApp\\obj\\Debug\\net9.0\\compressed\\8h0pcz0nz0-4km8eioz6u.gz",
       "SourceId": "WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Projects\\Alpha-Assignment\\WebApp\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/WebApp",
-      "RelativePath": "js/menu-toggle#[.{fingerprint=0fgvxmclnx}]?.js.gz",
+      "RelativePath": "js/menu-toggle#[.{fingerprint=4km8eioz6u}]?.js.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -199,8 +199,8 @@
       "RelatedAsset": "C:\\Projects\\Alpha-Assignment\\WebApp\\wwwroot\\js\\menu-toggle.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "qyntz38h5f",
-      "Integrity": "bjKeUNzxMM/fZ+1JWMglJEgzO0yxCbHMt5gT/HxpV3c=",
+      "Fingerprint": "crnm305ufg",
+      "Integrity": "OCudtomPX5DxDy5f+miDk/4j96ZfzWpVjCDqKKsgCfg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Projects\\Alpha-Assignment\\WebApp\\wwwroot\\js\\menu-toggle.js"
@@ -458,12 +458,12 @@
       "OriginalItemSpec": "C:\\Projects\\Alpha-Assignment\\WebApp\\wwwroot\\js\\confirmations.js"
     },
     {
-      "Identity": "C:\\Projects\\Alpha-Assignment\\WebApp\\obj\\Debug\\net9.0\\compressed\\odui6qsizi-ll2chy38ek.gz",
+      "Identity": "C:\\Projects\\Alpha-Assignment\\WebApp\\obj\\Debug\\net9.0\\compressed\\odui6qsizi-gzrdcdva3o.gz",
       "SourceId": "WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Projects\\Alpha-Assignment\\WebApp\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/WebApp",
-      "RelativePath": "js/format-text#[.{fingerprint=ll2chy38ek}]?.js.gz",
+      "RelativePath": "js/format-text#[.{fingerprint=gzrdcdva3o}]?.js.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -472,8 +472,8 @@
       "RelatedAsset": "C:\\Projects\\Alpha-Assignment\\WebApp\\wwwroot\\js\\format-text.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "ejeumcrnm7",
-      "Integrity": "GptZnAZyIZEK2mDoHjcOUZOu9dUhyUbLujQad4Zw5bY=",
+      "Fingerprint": "yuy3lwhy8y",
+      "Integrity": "xudZI9NIEnacVoB5nT8F0UUVxSrgHuwXgq1eiUL1Y8w=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Projects\\Alpha-Assignment\\WebApp\\wwwroot\\js\\format-text.js"
@@ -605,12 +605,12 @@
       "OriginalItemSpec": "C:\\Projects\\Alpha-Assignment\\WebApp\\wwwroot\\css\\pages\\_projects.css"
     },
     {
-      "Identity": "C:\\Projects\\Alpha-Assignment\\WebApp\\obj\\Debug\\net9.0\\compressed\\rhjyo190pn-5an4km14aw.gz",
+      "Identity": "C:\\Projects\\Alpha-Assignment\\WebApp\\obj\\Debug\\net9.0\\compressed\\rhjyo190pn-7584fk1lsp.gz",
       "SourceId": "WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Projects\\Alpha-Assignment\\WebApp\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/WebApp",
-      "RelativePath": "js/tab-toggle#[.{fingerprint=5an4km14aw}]?.js.gz",
+      "RelativePath": "js/tab-toggle#[.{fingerprint=7584fk1lsp}]?.js.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -619,8 +619,8 @@
       "RelatedAsset": "C:\\Projects\\Alpha-Assignment\\WebApp\\wwwroot\\js\\tab-toggle.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "wtyhy9z6lf",
-      "Integrity": "bF92hgCSdm3s1JOQdZSJ4H3mrzZ1rKssDlybnMSJZAo=",
+      "Fingerprint": "5lrg3a4fzu",
+      "Integrity": "qTowk24euAwVEND7dOJSIp9FYNNlal/1KBJqvL8h5sI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Projects\\Alpha-Assignment\\WebApp\\wwwroot\\js\\tab-toggle.js"
@@ -708,6 +708,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Projects\\Alpha-Assignment\\WebApp\\wwwroot\\css\\base\\_utilities.css"
+    },
+    {
+      "Identity": "C:\\Projects\\Alpha-Assignment\\WebApp\\obj\\Debug\\net9.0\\compressed\\w7l2bmlfqr-o1o13a6vjx.gz",
+      "SourceId": "WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Projects\\Alpha-Assignment\\WebApp\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/WebApp",
+      "RelativePath": "lib/jquery/dist/jquery/jquery.min#[.{fingerprint=o1o13a6vjx}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Projects\\Alpha-Assignment\\WebApp\\wwwroot\\lib\\jquery\\dist\\jquery\\jquery.min.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "9lbv9l0z68",
+      "Integrity": "bSlV8nIWgnEsf0ljiCRK0xw364UXDcqZZilq1CQ+At0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Projects\\Alpha-Assignment\\WebApp\\wwwroot\\lib\\jquery\\dist\\jquery\\jquery.min.js"
     },
     {
       "Identity": "C:\\Projects\\Alpha-Assignment\\WebApp\\obj\\Debug\\net9.0\\compressed\\xplbi6xx6u-k8tikypy79.gz",
@@ -1081,8 +1102,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "1gzr4bpghe",
-      "Integrity": "MQwFLl+FazokMsuJGonnn3pIxv6MrN6aW/9brOF0BZQ=",
+      "Fingerprint": "xb9zg75sn2",
+      "Integrity": "/fXWwhlvqOxFjsV5FsmSneJv5WhKv7yS7rJ3J8imEs4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\style.css"
@@ -1312,8 +1333,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "ll2chy38ek",
-      "Integrity": "174cyPjRzqa95QjffBRB7rTxrofjm02UQ9urM91/UUE=",
+      "Fingerprint": "gzrdcdva3o",
+      "Integrity": "7B48MkI/RH5nPYe+990HA5Y+n2Ew3Mj+OHKKLEtQXi4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\format-text.js"
@@ -1333,8 +1354,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "0fgvxmclnx",
-      "Integrity": "JMLmnVfBNSHylAQJYY3h1oT1e9vQWcylTH7nMAcBSRk=",
+      "Fingerprint": "4km8eioz6u",
+      "Integrity": "NLr2EtzpTKIazhtWHYq7TFOqWSBOCXkeE3M55JOWZMI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\menu-toggle.js"
@@ -1417,8 +1438,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "5an4km14aw",
-      "Integrity": "3QpQXYVKMrJXHVF+FCwc5FQKcIi/gl1ORtef/6bq0Lw=",
+      "Fingerprint": "7584fk1lsp",
+      "Integrity": "xW7d8j934yuVHQxE8AYCSS+Hk8QEYkicd6W/ebLnFUc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\tab-toggle.js"
@@ -1443,6 +1464,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\validations.js"
+    },
+    {
+      "Identity": "C:\\Projects\\Alpha-Assignment\\WebApp\\wwwroot\\lib\\jquery\\dist\\jquery\\jquery.min.js",
+      "SourceId": "WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Projects\\Alpha-Assignment\\WebApp\\wwwroot\\",
+      "BasePath": "_content/WebApp",
+      "RelativePath": "lib/jquery/dist/jquery/jquery.min#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "o1o13a6vjx",
+      "Integrity": "/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery\\jquery.min.js"
     }
   ],
   "Endpoints": [
@@ -1769,7 +1811,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 08 Apr 2025 08:28:39 GMT"
+          "Value": "Sun, 27 Apr 2025 18:32:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1830,7 +1872,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 08 Apr 2025 08:28:39 GMT"
+          "Value": "Sun, 27 Apr 2025 18:32:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1875,7 +1917,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 08 Apr 2025 08:28:39 GMT"
+          "Value": "Sun, 27 Apr 2025 18:32:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1930,7 +1972,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 08 Apr 2025 08:28:39 GMT"
+          "Value": "Sun, 27 Apr 2025 18:32:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1983,7 +2025,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 08 Apr 2025 08:28:39 GMT"
+          "Value": "Sun, 27 Apr 2025 18:32:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2020,7 +2062,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 08 Apr 2025 08:28:39 GMT"
+          "Value": "Sun, 27 Apr 2025 18:32:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5047,7 +5089,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 08:19:14 GMT"
+          "Value": "Sun, 27 Apr 2025 18:34:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5100,7 +5142,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 08:19:14 GMT"
+          "Value": "Sun, 27 Apr 2025 18:34:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5137,7 +5179,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 08:19:14 GMT"
+          "Value": "Sun, 27 Apr 2025 18:34:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5184,7 +5226,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 08:19:14 GMT"
+          "Value": "Sun, 27 Apr 2025 18:34:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5245,7 +5287,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 08:19:14 GMT"
+          "Value": "Sun, 27 Apr 2025 18:34:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5290,7 +5332,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 08:19:14 GMT"
+          "Value": "Sun, 27 Apr 2025 18:34:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6215,13 +6257,13 @@
       ]
     },
     {
-      "Route": "css/style.1gzr4bpghe.css",
-      "AssetFile": "C:\\Projects\\Alpha-Assignment\\WebApp\\obj\\Debug\\net9.0\\compressed\\3xs3n2q4h8-1gzr4bpghe.gz",
+      "Route": "css/style.css",
+      "AssetFile": "C:\\Projects\\Alpha-Assignment\\WebApp\\obj\\Debug\\net9.0\\compressed\\3xs3n2q4h8-xb9zg75sn2.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.002597402597"
+          "Quality": "0.002638522427"
         }
       ],
       "ResponseHeaders": [
@@ -6231,19 +6273,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "384"
+          "Value": "378"
         },
         {
           "Name": "ETag",
-          "Value": "\"1SY9QXLIHc4NpNiCL2U75/IY1aw4DQE8LIxJqwwAI60=\""
+          "Value": "\"8BgqAem9b5yMindc5H2phAcoAigm9q02GPqvn57IxlA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 25 Apr 2025 13:50:50 GMT"
+          "Value": "Sun, 27 Apr 2025 20:06:04 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -6259,26 +6301,18 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"MQwFLl+FazokMsuJGonnn3pIxv6MrN6aW/9brOF0BZQ=\""
+          "Value": "W/\"/fXWwhlvqOxFjsV5FsmSneJv5WhKv7yS7rJ3J8imEs4=\""
         }
       ],
       "EndpointProperties": [
         {
-          "Name": "fingerprint",
-          "Value": "1gzr4bpghe"
-        },
-        {
-          "Name": "label",
-          "Value": "css/style.css"
-        },
-        {
           "Name": "integrity",
-          "Value": "sha256-MQwFLl+FazokMsuJGonnn3pIxv6MrN6aW/9brOF0BZQ="
+          "Value": "sha256-/fXWwhlvqOxFjsV5FsmSneJv5WhKv7yS7rJ3J8imEs4="
         }
       ]
     },
     {
-      "Route": "css/style.1gzr4bpghe.css",
+      "Route": "css/style.css",
       "AssetFile": "C:\\Projects\\Alpha-Assignment\\WebApp\\wwwroot\\css\\style.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -6288,7 +6322,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "992"
+          "Value": "955"
         },
         {
           "Name": "Content-Type",
@@ -6296,11 +6330,156 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"MQwFLl+FazokMsuJGonnn3pIxv6MrN6aW/9brOF0BZQ=\""
+          "Value": "\"/fXWwhlvqOxFjsV5FsmSneJv5WhKv7yS7rJ3J8imEs4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 25 Apr 2025 13:50:50 GMT"
+          "Value": "Sun, 27 Apr 2025 20:06:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/fXWwhlvqOxFjsV5FsmSneJv5WhKv7yS7rJ3J8imEs4="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.css.gz",
+      "AssetFile": "C:\\Projects\\Alpha-Assignment\\WebApp\\obj\\Debug\\net9.0\\compressed\\3xs3n2q4h8-xb9zg75sn2.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "378"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8BgqAem9b5yMindc5H2phAcoAigm9q02GPqvn57IxlA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 27 Apr 2025 20:06:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8BgqAem9b5yMindc5H2phAcoAigm9q02GPqvn57IxlA="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.xb9zg75sn2.css",
+      "AssetFile": "C:\\Projects\\Alpha-Assignment\\WebApp\\obj\\Debug\\net9.0\\compressed\\3xs3n2q4h8-xb9zg75sn2.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002638522427"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "378"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8BgqAem9b5yMindc5H2phAcoAigm9q02GPqvn57IxlA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 27 Apr 2025 20:06:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"/fXWwhlvqOxFjsV5FsmSneJv5WhKv7yS7rJ3J8imEs4=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xb9zg75sn2"
+        },
+        {
+          "Name": "label",
+          "Value": "css/style.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/fXWwhlvqOxFjsV5FsmSneJv5WhKv7yS7rJ3J8imEs4="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.xb9zg75sn2.css",
+      "AssetFile": "C:\\Projects\\Alpha-Assignment\\WebApp\\wwwroot\\css\\style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "955"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/fXWwhlvqOxFjsV5FsmSneJv5WhKv7yS7rJ3J8imEs4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 27 Apr 2025 20:06:04 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6310,7 +6489,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "1gzr4bpghe"
+          "Value": "xb9zg75sn2"
         },
         {
           "Name": "label",
@@ -6318,13 +6497,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-MQwFLl+FazokMsuJGonnn3pIxv6MrN6aW/9brOF0BZQ="
+          "Value": "sha256-/fXWwhlvqOxFjsV5FsmSneJv5WhKv7yS7rJ3J8imEs4="
         }
       ]
     },
     {
-      "Route": "css/style.1gzr4bpghe.css.gz",
-      "AssetFile": "C:\\Projects\\Alpha-Assignment\\WebApp\\obj\\Debug\\net9.0\\compressed\\3xs3n2q4h8-1gzr4bpghe.gz",
+      "Route": "css/style.xb9zg75sn2.css.gz",
+      "AssetFile": "C:\\Projects\\Alpha-Assignment\\WebApp\\obj\\Debug\\net9.0\\compressed\\3xs3n2q4h8-xb9zg75sn2.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6333,7 +6512,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "384"
+          "Value": "378"
         },
         {
           "Name": "Content-Type",
@@ -6341,11 +6520,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"1SY9QXLIHc4NpNiCL2U75/IY1aw4DQE8LIxJqwwAI60=\""
+          "Value": "\"8BgqAem9b5yMindc5H2phAcoAigm9q02GPqvn57IxlA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 25 Apr 2025 13:50:50 GMT"
+          "Value": "Sun, 27 Apr 2025 20:06:04 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6363,7 +6542,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "1gzr4bpghe"
+          "Value": "xb9zg75sn2"
         },
         {
           "Name": "label",
@@ -6371,144 +6550,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-1SY9QXLIHc4NpNiCL2U75/IY1aw4DQE8LIxJqwwAI60="
-        }
-      ]
-    },
-    {
-      "Route": "css/style.css",
-      "AssetFile": "C:\\Projects\\Alpha-Assignment\\WebApp\\obj\\Debug\\net9.0\\compressed\\3xs3n2q4h8-1gzr4bpghe.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.002597402597"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "384"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"1SY9QXLIHc4NpNiCL2U75/IY1aw4DQE8LIxJqwwAI60=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 25 Apr 2025 13:50:50 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"MQwFLl+FazokMsuJGonnn3pIxv6MrN6aW/9brOF0BZQ=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-MQwFLl+FazokMsuJGonnn3pIxv6MrN6aW/9brOF0BZQ="
-        }
-      ]
-    },
-    {
-      "Route": "css/style.css",
-      "AssetFile": "C:\\Projects\\Alpha-Assignment\\WebApp\\wwwroot\\css\\style.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "992"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"MQwFLl+FazokMsuJGonnn3pIxv6MrN6aW/9brOF0BZQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 25 Apr 2025 13:50:50 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-MQwFLl+FazokMsuJGonnn3pIxv6MrN6aW/9brOF0BZQ="
-        }
-      ]
-    },
-    {
-      "Route": "css/style.css.gz",
-      "AssetFile": "C:\\Projects\\Alpha-Assignment\\WebApp\\obj\\Debug\\net9.0\\compressed\\3xs3n2q4h8-1gzr4bpghe.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "384"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"1SY9QXLIHc4NpNiCL2U75/IY1aw4DQE8LIxJqwwAI60=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 25 Apr 2025 13:50:50 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-1SY9QXLIHc4NpNiCL2U75/IY1aw4DQE8LIxJqwwAI60="
+          "Value": "sha256-8BgqAem9b5yMindc5H2phAcoAigm9q02GPqvn57IxlA="
         }
       ]
     },
@@ -9493,13 +9535,13 @@
       ]
     },
     {
-      "Route": "js/format-text.js",
-      "AssetFile": "C:\\Projects\\Alpha-Assignment\\WebApp\\obj\\Debug\\net9.0\\compressed\\odui6qsizi-ll2chy38ek.gz",
+      "Route": "js/format-text.gzrdcdva3o.js",
+      "AssetFile": "C:\\Projects\\Alpha-Assignment\\WebApp\\obj\\Debug\\net9.0\\compressed\\odui6qsizi-gzrdcdva3o.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001116071429"
+          "Quality": "0.001131221719"
         }
       ],
       "ResponseHeaders": [
@@ -9509,19 +9551,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "895"
+          "Value": "883"
         },
         {
           "Name": "ETag",
-          "Value": "\"GptZnAZyIZEK2mDoHjcOUZOu9dUhyUbLujQad4Zw5bY=\""
+          "Value": "\"xudZI9NIEnacVoB5nT8F0UUVxSrgHuwXgq1eiUL1Y8w=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 25 Apr 2025 14:08:28 GMT"
+          "Value": "Thu, 01 May 2025 09:00:11 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "no-cache"
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Encoding",
@@ -9537,18 +9579,26 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"174cyPjRzqa95QjffBRB7rTxrofjm02UQ9urM91/UUE=\""
+          "Value": "W/\"7B48MkI/RH5nPYe+990HA5Y+n2Ew3Mj+OHKKLEtQXi4=\""
         }
       ],
       "EndpointProperties": [
         {
+          "Name": "fingerprint",
+          "Value": "gzrdcdva3o"
+        },
+        {
+          "Name": "label",
+          "Value": "js/format-text.js"
+        },
+        {
           "Name": "integrity",
-          "Value": "sha256-174cyPjRzqa95QjffBRB7rTxrofjm02UQ9urM91/UUE="
+          "Value": "sha256-7B48MkI/RH5nPYe+990HA5Y+n2Ew3Mj+OHKKLEtQXi4="
         }
       ]
     },
     {
-      "Route": "js/format-text.js",
+      "Route": "js/format-text.gzrdcdva3o.js",
       "AssetFile": "C:\\Projects\\Alpha-Assignment\\WebApp\\wwwroot\\js\\format-text.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -9558,7 +9608,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2284"
+          "Value": "2256"
         },
         {
           "Name": "Content-Type",
@@ -9566,121 +9616,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"174cyPjRzqa95QjffBRB7rTxrofjm02UQ9urM91/UUE=\""
+          "Value": "\"7B48MkI/RH5nPYe+990HA5Y+n2Ew3Mj+OHKKLEtQXi4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 25 Apr 2025 14:08:28 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-174cyPjRzqa95QjffBRB7rTxrofjm02UQ9urM91/UUE="
-        }
-      ]
-    },
-    {
-      "Route": "js/format-text.js.gz",
-      "AssetFile": "C:\\Projects\\Alpha-Assignment\\WebApp\\obj\\Debug\\net9.0\\compressed\\odui6qsizi-ll2chy38ek.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "895"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"GptZnAZyIZEK2mDoHjcOUZOu9dUhyUbLujQad4Zw5bY=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 25 Apr 2025 14:08:28 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-GptZnAZyIZEK2mDoHjcOUZOu9dUhyUbLujQad4Zw5bY="
-        }
-      ]
-    },
-    {
-      "Route": "js/format-text.ll2chy38ek.js",
-      "AssetFile": "C:\\Projects\\Alpha-Assignment\\WebApp\\obj\\Debug\\net9.0\\compressed\\odui6qsizi-ll2chy38ek.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.001116071429"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "895"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"GptZnAZyIZEK2mDoHjcOUZOu9dUhyUbLujQad4Zw5bY=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 25 Apr 2025 14:08:28 GMT"
+          "Value": "Thu, 01 May 2025 09:00:11 GMT"
         },
         {
           "Name": "Cache-Control",
           "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"174cyPjRzqa95QjffBRB7rTxrofjm02UQ9urM91/UUE=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ll2chy38ek"
+          "Value": "gzrdcdva3o"
         },
         {
           "Name": "label",
@@ -9688,13 +9638,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-174cyPjRzqa95QjffBRB7rTxrofjm02UQ9urM91/UUE="
+          "Value": "sha256-7B48MkI/RH5nPYe+990HA5Y+n2Ew3Mj+OHKKLEtQXi4="
         }
       ]
     },
     {
-      "Route": "js/format-text.ll2chy38ek.js",
-      "AssetFile": "C:\\Projects\\Alpha-Assignment\\WebApp\\wwwroot\\js\\format-text.js",
+      "Route": "js/format-text.gzrdcdva3o.js.gz",
+      "AssetFile": "C:\\Projects\\Alpha-Assignment\\WebApp\\obj\\Debug\\net9.0\\compressed\\odui6qsizi-gzrdcdva3o.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9703,7 +9653,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2284"
+          "Value": "883"
         },
         {
           "Name": "Content-Type",
@@ -9711,56 +9661,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"174cyPjRzqa95QjffBRB7rTxrofjm02UQ9urM91/UUE=\""
+          "Value": "\"xudZI9NIEnacVoB5nT8F0UUVxSrgHuwXgq1eiUL1Y8w=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 25 Apr 2025 14:08:28 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "ll2chy38ek"
-        },
-        {
-          "Name": "label",
-          "Value": "js/format-text.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-174cyPjRzqa95QjffBRB7rTxrofjm02UQ9urM91/UUE="
-        }
-      ]
-    },
-    {
-      "Route": "js/format-text.ll2chy38ek.js.gz",
-      "AssetFile": "C:\\Projects\\Alpha-Assignment\\WebApp\\obj\\Debug\\net9.0\\compressed\\odui6qsizi-ll2chy38ek.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "895"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"GptZnAZyIZEK2mDoHjcOUZOu9dUhyUbLujQad4Zw5bY=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 25 Apr 2025 14:08:28 GMT"
+          "Value": "Thu, 01 May 2025 09:00:11 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9778,7 +9683,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ll2chy38ek"
+          "Value": "gzrdcdva3o"
         },
         {
           "Name": "label",
@@ -9786,18 +9691,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-GptZnAZyIZEK2mDoHjcOUZOu9dUhyUbLujQad4Zw5bY="
+          "Value": "sha256-xudZI9NIEnacVoB5nT8F0UUVxSrgHuwXgq1eiUL1Y8w="
         }
       ]
     },
     {
-      "Route": "js/menu-toggle.0fgvxmclnx.js",
-      "AssetFile": "C:\\Projects\\Alpha-Assignment\\WebApp\\obj\\Debug\\net9.0\\compressed\\8h0pcz0nz0-0fgvxmclnx.gz",
+      "Route": "js/format-text.js",
+      "AssetFile": "C:\\Projects\\Alpha-Assignment\\WebApp\\obj\\Debug\\net9.0\\compressed\\odui6qsizi-gzrdcdva3o.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.003289473684"
+          "Quality": "0.001131221719"
         }
       ],
       "ResponseHeaders": [
@@ -9807,15 +9712,152 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "303"
+          "Value": "883"
         },
         {
           "Name": "ETag",
-          "Value": "\"bjKeUNzxMM/fZ+1JWMglJEgzO0yxCbHMt5gT/HxpV3c=\""
+          "Value": "\"xudZI9NIEnacVoB5nT8F0UUVxSrgHuwXgq1eiUL1Y8w=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 22 Apr 2025 10:51:11 GMT"
+          "Value": "Thu, 01 May 2025 09:00:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"7B48MkI/RH5nPYe+990HA5Y+n2Ew3Mj+OHKKLEtQXi4=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-7B48MkI/RH5nPYe+990HA5Y+n2Ew3Mj+OHKKLEtQXi4="
+        }
+      ]
+    },
+    {
+      "Route": "js/format-text.js",
+      "AssetFile": "C:\\Projects\\Alpha-Assignment\\WebApp\\wwwroot\\js\\format-text.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2256"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7B48MkI/RH5nPYe+990HA5Y+n2Ew3Mj+OHKKLEtQXi4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 01 May 2025 09:00:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-7B48MkI/RH5nPYe+990HA5Y+n2Ew3Mj+OHKKLEtQXi4="
+        }
+      ]
+    },
+    {
+      "Route": "js/format-text.js.gz",
+      "AssetFile": "C:\\Projects\\Alpha-Assignment\\WebApp\\obj\\Debug\\net9.0\\compressed\\odui6qsizi-gzrdcdva3o.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "883"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xudZI9NIEnacVoB5nT8F0UUVxSrgHuwXgq1eiUL1Y8w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 01 May 2025 09:00:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xudZI9NIEnacVoB5nT8F0UUVxSrgHuwXgq1eiUL1Y8w="
+        }
+      ]
+    },
+    {
+      "Route": "js/menu-toggle.4km8eioz6u.js",
+      "AssetFile": "C:\\Projects\\Alpha-Assignment\\WebApp\\obj\\Debug\\net9.0\\compressed\\8h0pcz0nz0-4km8eioz6u.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002881844380"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "346"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OCudtomPX5DxDy5f+miDk/4j96ZfzWpVjCDqKKsgCfg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 01 May 2025 09:00:11 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9835,13 +9877,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"JMLmnVfBNSHylAQJYY3h1oT1e9vQWcylTH7nMAcBSRk=\""
+          "Value": "W/\"NLr2EtzpTKIazhtWHYq7TFOqWSBOCXkeE3M55JOWZMI=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "0fgvxmclnx"
+          "Value": "4km8eioz6u"
         },
         {
           "Name": "label",
@@ -9849,12 +9891,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-JMLmnVfBNSHylAQJYY3h1oT1e9vQWcylTH7nMAcBSRk="
+          "Value": "sha256-NLr2EtzpTKIazhtWHYq7TFOqWSBOCXkeE3M55JOWZMI="
         }
       ]
     },
     {
-      "Route": "js/menu-toggle.0fgvxmclnx.js",
+      "Route": "js/menu-toggle.4km8eioz6u.js",
       "AssetFile": "C:\\Projects\\Alpha-Assignment\\WebApp\\wwwroot\\js\\menu-toggle.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -9864,7 +9906,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1044"
+          "Value": "1285"
         },
         {
           "Name": "Content-Type",
@@ -9872,11 +9914,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"JMLmnVfBNSHylAQJYY3h1oT1e9vQWcylTH7nMAcBSRk=\""
+          "Value": "\"NLr2EtzpTKIazhtWHYq7TFOqWSBOCXkeE3M55JOWZMI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 22 Apr 2025 10:51:11 GMT"
+          "Value": "Thu, 01 May 2025 09:00:11 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9886,7 +9928,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "0fgvxmclnx"
+          "Value": "4km8eioz6u"
         },
         {
           "Name": "label",
@@ -9894,13 +9936,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-JMLmnVfBNSHylAQJYY3h1oT1e9vQWcylTH7nMAcBSRk="
+          "Value": "sha256-NLr2EtzpTKIazhtWHYq7TFOqWSBOCXkeE3M55JOWZMI="
         }
       ]
     },
     {
-      "Route": "js/menu-toggle.0fgvxmclnx.js.gz",
-      "AssetFile": "C:\\Projects\\Alpha-Assignment\\WebApp\\obj\\Debug\\net9.0\\compressed\\8h0pcz0nz0-0fgvxmclnx.gz",
+      "Route": "js/menu-toggle.4km8eioz6u.js.gz",
+      "AssetFile": "C:\\Projects\\Alpha-Assignment\\WebApp\\obj\\Debug\\net9.0\\compressed\\8h0pcz0nz0-4km8eioz6u.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9909,7 +9951,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "303"
+          "Value": "346"
         },
         {
           "Name": "Content-Type",
@@ -9917,11 +9959,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"bjKeUNzxMM/fZ+1JWMglJEgzO0yxCbHMt5gT/HxpV3c=\""
+          "Value": "\"OCudtomPX5DxDy5f+miDk/4j96ZfzWpVjCDqKKsgCfg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 22 Apr 2025 10:51:11 GMT"
+          "Value": "Thu, 01 May 2025 09:00:11 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9939,7 +9981,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "0fgvxmclnx"
+          "Value": "4km8eioz6u"
         },
         {
           "Name": "label",
@@ -9947,18 +9989,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-bjKeUNzxMM/fZ+1JWMglJEgzO0yxCbHMt5gT/HxpV3c="
+          "Value": "sha256-OCudtomPX5DxDy5f+miDk/4j96ZfzWpVjCDqKKsgCfg="
         }
       ]
     },
     {
       "Route": "js/menu-toggle.js",
-      "AssetFile": "C:\\Projects\\Alpha-Assignment\\WebApp\\obj\\Debug\\net9.0\\compressed\\8h0pcz0nz0-0fgvxmclnx.gz",
+      "AssetFile": "C:\\Projects\\Alpha-Assignment\\WebApp\\obj\\Debug\\net9.0\\compressed\\8h0pcz0nz0-4km8eioz6u.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.003289473684"
+          "Quality": "0.002881844380"
         }
       ],
       "ResponseHeaders": [
@@ -9968,15 +10010,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "303"
+          "Value": "346"
         },
         {
           "Name": "ETag",
-          "Value": "\"bjKeUNzxMM/fZ+1JWMglJEgzO0yxCbHMt5gT/HxpV3c=\""
+          "Value": "\"OCudtomPX5DxDy5f+miDk/4j96ZfzWpVjCDqKKsgCfg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 22 Apr 2025 10:51:11 GMT"
+          "Value": "Thu, 01 May 2025 09:00:11 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9996,13 +10038,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"JMLmnVfBNSHylAQJYY3h1oT1e9vQWcylTH7nMAcBSRk=\""
+          "Value": "W/\"NLr2EtzpTKIazhtWHYq7TFOqWSBOCXkeE3M55JOWZMI=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-JMLmnVfBNSHylAQJYY3h1oT1e9vQWcylTH7nMAcBSRk="
+          "Value": "sha256-NLr2EtzpTKIazhtWHYq7TFOqWSBOCXkeE3M55JOWZMI="
         }
       ]
     },
@@ -10017,7 +10059,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1044"
+          "Value": "1285"
         },
         {
           "Name": "Content-Type",
@@ -10025,11 +10067,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"JMLmnVfBNSHylAQJYY3h1oT1e9vQWcylTH7nMAcBSRk=\""
+          "Value": "\"NLr2EtzpTKIazhtWHYq7TFOqWSBOCXkeE3M55JOWZMI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 22 Apr 2025 10:51:11 GMT"
+          "Value": "Thu, 01 May 2025 09:00:11 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10039,13 +10081,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-JMLmnVfBNSHylAQJYY3h1oT1e9vQWcylTH7nMAcBSRk="
+          "Value": "sha256-NLr2EtzpTKIazhtWHYq7TFOqWSBOCXkeE3M55JOWZMI="
         }
       ]
     },
     {
       "Route": "js/menu-toggle.js.gz",
-      "AssetFile": "C:\\Projects\\Alpha-Assignment\\WebApp\\obj\\Debug\\net9.0\\compressed\\8h0pcz0nz0-0fgvxmclnx.gz",
+      "AssetFile": "C:\\Projects\\Alpha-Assignment\\WebApp\\obj\\Debug\\net9.0\\compressed\\8h0pcz0nz0-4km8eioz6u.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10054,7 +10096,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "303"
+          "Value": "346"
         },
         {
           "Name": "Content-Type",
@@ -10062,11 +10104,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"bjKeUNzxMM/fZ+1JWMglJEgzO0yxCbHMt5gT/HxpV3c=\""
+          "Value": "\"OCudtomPX5DxDy5f+miDk/4j96ZfzWpVjCDqKKsgCfg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 22 Apr 2025 10:51:11 GMT"
+          "Value": "Thu, 01 May 2025 09:00:11 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10084,7 +10126,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-bjKeUNzxMM/fZ+1JWMglJEgzO0yxCbHMt5gT/HxpV3c="
+          "Value": "sha256-OCudtomPX5DxDy5f+miDk/4j96ZfzWpVjCDqKKsgCfg="
         }
       ]
     },
@@ -10983,13 +11025,13 @@
       ]
     },
     {
-      "Route": "js/tab-toggle.5an4km14aw.js",
-      "AssetFile": "C:\\Projects\\Alpha-Assignment\\WebApp\\obj\\Debug\\net9.0\\compressed\\rhjyo190pn-5an4km14aw.gz",
+      "Route": "js/tab-toggle.7584fk1lsp.js",
+      "AssetFile": "C:\\Projects\\Alpha-Assignment\\WebApp\\obj\\Debug\\net9.0\\compressed\\rhjyo190pn-7584fk1lsp.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001338688086"
+          "Quality": "0.001315789474"
         }
       ],
       "ResponseHeaders": [
@@ -10999,15 +11041,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "746"
+          "Value": "759"
         },
         {
           "Name": "ETag",
-          "Value": "\"bF92hgCSdm3s1JOQdZSJ4H3mrzZ1rKssDlybnMSJZAo=\""
+          "Value": "\"qTowk24euAwVEND7dOJSIp9FYNNlal/1KBJqvL8h5sI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 27 Apr 2025 05:37:47 GMT"
+          "Value": "Sun, 27 Apr 2025 20:13:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11027,13 +11069,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"3QpQXYVKMrJXHVF+FCwc5FQKcIi/gl1ORtef/6bq0Lw=\""
+          "Value": "W/\"xW7d8j934yuVHQxE8AYCSS+Hk8QEYkicd6W/ebLnFUc=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "5an4km14aw"
+          "Value": "7584fk1lsp"
         },
         {
           "Name": "label",
@@ -11041,12 +11083,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-3QpQXYVKMrJXHVF+FCwc5FQKcIi/gl1ORtef/6bq0Lw="
+          "Value": "sha256-xW7d8j934yuVHQxE8AYCSS+Hk8QEYkicd6W/ebLnFUc="
         }
       ]
     },
     {
-      "Route": "js/tab-toggle.5an4km14aw.js",
+      "Route": "js/tab-toggle.7584fk1lsp.js",
       "AssetFile": "C:\\Projects\\Alpha-Assignment\\WebApp\\wwwroot\\js\\tab-toggle.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -11056,7 +11098,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1961"
+          "Value": "1995"
         },
         {
           "Name": "Content-Type",
@@ -11064,11 +11106,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"3QpQXYVKMrJXHVF+FCwc5FQKcIi/gl1ORtef/6bq0Lw=\""
+          "Value": "\"xW7d8j934yuVHQxE8AYCSS+Hk8QEYkicd6W/ebLnFUc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 27 Apr 2025 05:37:47 GMT"
+          "Value": "Sun, 27 Apr 2025 20:13:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11078,7 +11120,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "5an4km14aw"
+          "Value": "7584fk1lsp"
         },
         {
           "Name": "label",
@@ -11086,13 +11128,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-3QpQXYVKMrJXHVF+FCwc5FQKcIi/gl1ORtef/6bq0Lw="
+          "Value": "sha256-xW7d8j934yuVHQxE8AYCSS+Hk8QEYkicd6W/ebLnFUc="
         }
       ]
     },
     {
-      "Route": "js/tab-toggle.5an4km14aw.js.gz",
-      "AssetFile": "C:\\Projects\\Alpha-Assignment\\WebApp\\obj\\Debug\\net9.0\\compressed\\rhjyo190pn-5an4km14aw.gz",
+      "Route": "js/tab-toggle.7584fk1lsp.js.gz",
+      "AssetFile": "C:\\Projects\\Alpha-Assignment\\WebApp\\obj\\Debug\\net9.0\\compressed\\rhjyo190pn-7584fk1lsp.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11101,7 +11143,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "746"
+          "Value": "759"
         },
         {
           "Name": "Content-Type",
@@ -11109,11 +11151,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"bF92hgCSdm3s1JOQdZSJ4H3mrzZ1rKssDlybnMSJZAo=\""
+          "Value": "\"qTowk24euAwVEND7dOJSIp9FYNNlal/1KBJqvL8h5sI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 27 Apr 2025 05:37:47 GMT"
+          "Value": "Sun, 27 Apr 2025 20:13:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11131,7 +11173,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "5an4km14aw"
+          "Value": "7584fk1lsp"
         },
         {
           "Name": "label",
@@ -11139,18 +11181,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-bF92hgCSdm3s1JOQdZSJ4H3mrzZ1rKssDlybnMSJZAo="
+          "Value": "sha256-qTowk24euAwVEND7dOJSIp9FYNNlal/1KBJqvL8h5sI="
         }
       ]
     },
     {
       "Route": "js/tab-toggle.js",
-      "AssetFile": "C:\\Projects\\Alpha-Assignment\\WebApp\\obj\\Debug\\net9.0\\compressed\\rhjyo190pn-5an4km14aw.gz",
+      "AssetFile": "C:\\Projects\\Alpha-Assignment\\WebApp\\obj\\Debug\\net9.0\\compressed\\rhjyo190pn-7584fk1lsp.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001338688086"
+          "Quality": "0.001315789474"
         }
       ],
       "ResponseHeaders": [
@@ -11160,15 +11202,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "746"
+          "Value": "759"
         },
         {
           "Name": "ETag",
-          "Value": "\"bF92hgCSdm3s1JOQdZSJ4H3mrzZ1rKssDlybnMSJZAo=\""
+          "Value": "\"qTowk24euAwVEND7dOJSIp9FYNNlal/1KBJqvL8h5sI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 27 Apr 2025 05:37:47 GMT"
+          "Value": "Sun, 27 Apr 2025 20:13:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11188,13 +11230,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"3QpQXYVKMrJXHVF+FCwc5FQKcIi/gl1ORtef/6bq0Lw=\""
+          "Value": "W/\"xW7d8j934yuVHQxE8AYCSS+Hk8QEYkicd6W/ebLnFUc=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-3QpQXYVKMrJXHVF+FCwc5FQKcIi/gl1ORtef/6bq0Lw="
+          "Value": "sha256-xW7d8j934yuVHQxE8AYCSS+Hk8QEYkicd6W/ebLnFUc="
         }
       ]
     },
@@ -11209,7 +11251,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1961"
+          "Value": "1995"
         },
         {
           "Name": "Content-Type",
@@ -11217,11 +11259,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"3QpQXYVKMrJXHVF+FCwc5FQKcIi/gl1ORtef/6bq0Lw=\""
+          "Value": "\"xW7d8j934yuVHQxE8AYCSS+Hk8QEYkicd6W/ebLnFUc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 27 Apr 2025 05:37:47 GMT"
+          "Value": "Sun, 27 Apr 2025 20:13:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11231,13 +11273,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-3QpQXYVKMrJXHVF+FCwc5FQKcIi/gl1ORtef/6bq0Lw="
+          "Value": "sha256-xW7d8j934yuVHQxE8AYCSS+Hk8QEYkicd6W/ebLnFUc="
         }
       ]
     },
     {
       "Route": "js/tab-toggle.js.gz",
-      "AssetFile": "C:\\Projects\\Alpha-Assignment\\WebApp\\obj\\Debug\\net9.0\\compressed\\rhjyo190pn-5an4km14aw.gz",
+      "AssetFile": "C:\\Projects\\Alpha-Assignment\\WebApp\\obj\\Debug\\net9.0\\compressed\\rhjyo190pn-7584fk1lsp.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11246,7 +11288,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "746"
+          "Value": "759"
         },
         {
           "Name": "Content-Type",
@@ -11254,11 +11296,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"bF92hgCSdm3s1JOQdZSJ4H3mrzZ1rKssDlybnMSJZAo=\""
+          "Value": "\"qTowk24euAwVEND7dOJSIp9FYNNlal/1KBJqvL8h5sI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 27 Apr 2025 05:37:47 GMT"
+          "Value": "Sun, 27 Apr 2025 20:13:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11276,7 +11318,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-bF92hgCSdm3s1JOQdZSJ4H3mrzZ1rKssDlybnMSJZAo="
+          "Value": "sha256-qTowk24euAwVEND7dOJSIp9FYNNlal/1KBJqvL8h5sI="
         }
       ]
     },
@@ -11305,7 +11347,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 25 Apr 2025 11:40:11 GMT"
+          "Value": "Sun, 27 Apr 2025 09:57:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11366,7 +11408,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 25 Apr 2025 11:40:11 GMT"
+          "Value": "Sun, 27 Apr 2025 09:57:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11411,7 +11453,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 25 Apr 2025 11:40:11 GMT"
+          "Value": "Sun, 27 Apr 2025 09:57:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11466,7 +11508,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 25 Apr 2025 11:40:11 GMT"
+          "Value": "Sun, 27 Apr 2025 09:57:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11519,7 +11561,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 25 Apr 2025 11:40:11 GMT"
+          "Value": "Sun, 27 Apr 2025 09:57:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11556,7 +11598,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 25 Apr 2025 11:40:11 GMT"
+          "Value": "Sun, 27 Apr 2025 09:57:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11575,6 +11617,304 @@
         {
           "Name": "integrity",
           "Value": "sha256-HIgmfqJbt6RCVBFNJhjfCmILtfeX/WsS1WMIvIW6CGw="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery/dist/jquery/jquery.min.js",
+      "AssetFile": "C:\\Projects\\Alpha-Assignment\\WebApp\\obj\\Debug\\net9.0\\compressed\\w7l2bmlfqr-o1o13a6vjx.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000032879595"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "30413"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bSlV8nIWgnEsf0ljiCRK0xw364UXDcqZZilq1CQ+At0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 27 Apr 2025 19:13:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery/dist/jquery/jquery.min.js",
+      "AssetFile": "C:\\Projects\\Alpha-Assignment\\WebApp\\wwwroot\\lib\\jquery\\dist\\jquery\\jquery.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "87533"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 27 Apr 2025 19:13:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery/dist/jquery/jquery.min.js.gz",
+      "AssetFile": "C:\\Projects\\Alpha-Assignment\\WebApp\\obj\\Debug\\net9.0\\compressed\\w7l2bmlfqr-o1o13a6vjx.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "30413"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bSlV8nIWgnEsf0ljiCRK0xw364UXDcqZZilq1CQ+At0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 27 Apr 2025 19:13:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-bSlV8nIWgnEsf0ljiCRK0xw364UXDcqZZilq1CQ+At0="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery/dist/jquery/jquery.min.o1o13a6vjx.js",
+      "AssetFile": "C:\\Projects\\Alpha-Assignment\\WebApp\\obj\\Debug\\net9.0\\compressed\\w7l2bmlfqr-o1o13a6vjx.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000032879595"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "30413"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bSlV8nIWgnEsf0ljiCRK0xw364UXDcqZZilq1CQ+At0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 27 Apr 2025 19:13:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o1o13a6vjx"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/jquery/dist/jquery/jquery.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery/dist/jquery/jquery.min.o1o13a6vjx.js",
+      "AssetFile": "C:\\Projects\\Alpha-Assignment\\WebApp\\wwwroot\\lib\\jquery\\dist\\jquery\\jquery.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "87533"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 27 Apr 2025 19:13:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o1o13a6vjx"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/jquery/dist/jquery/jquery.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery/dist/jquery/jquery.min.o1o13a6vjx.js.gz",
+      "AssetFile": "C:\\Projects\\Alpha-Assignment\\WebApp\\obj\\Debug\\net9.0\\compressed\\w7l2bmlfqr-o1o13a6vjx.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "30413"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bSlV8nIWgnEsf0ljiCRK0xw364UXDcqZZilq1CQ+At0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 27 Apr 2025 19:13:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o1o13a6vjx"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/jquery/dist/jquery/jquery.min.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-bSlV8nIWgnEsf0ljiCRK0xw364UXDcqZZilq1CQ+At0="
         }
       ]
     }

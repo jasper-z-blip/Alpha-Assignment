@@ -3,28 +3,36 @@
   "WorkspaceRootPath": "C:\\Projects\\Alpha-Assignment\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C2633156-A535-4904-BA22-EF38CCEC1BE3}|WebApp\\WebApp.csproj|c:\\projects\\alpha-assignment\\webapp\\views\\dashboard\\_settingsmodal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C2633156-A535-4904-BA22-EF38CCEC1BE3}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\dashboard\\_settingsmodal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C2633156-A535-4904-BA22-EF38CCEC1BE3}|WebApp\\WebApp.csproj|c:\\projects\\alpha-assignment\\webapp\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C2633156-A535-4904-BA22-EF38CCEC1BE3}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C2633156-A535-4904-BA22-EF38CCEC1BE3}|WebApp\\WebApp.csproj|c:\\projects\\alpha-assignment\\webapp\\views\\dashboard\\addmodal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C2633156-A535-4904-BA22-EF38CCEC1BE3}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\dashboard\\addmodal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C2633156-A535-4904-BA22-EF38CCEC1BE3}|WebApp\\WebApp.csproj|c:\\projects\\alpha-assignment\\webapp\\helpers\\mustbetrueattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2633156-A535-4904-BA22-EF38CCEC1BE3}|WebApp\\WebApp.csproj|solutionrelative:webapp\\helpers\\mustbetrueattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C2633156-A535-4904-BA22-EF38CCEC1BE3}|WebApp\\WebApp.csproj|c:\\projects\\alpha-assignment\\webapp\\views\\dashboard\\editmodal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C2633156-A535-4904-BA22-EF38CCEC1BE3}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\dashboard\\editmodal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C2633156-A535-4904-BA22-EF38CCEC1BE3}|WebApp\\WebApp.csproj|c:\\projects\\alpha-assignment\\webapp\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C2633156-A535-4904-BA22-EF38CCEC1BE3}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C2633156-A535-4904-BA22-EF38CCEC1BE3}|WebApp\\WebApp.csproj|c:\\projects\\alpha-assignment\\webapp\\wwwroot\\css\\components\\_quill.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{C2633156-A535-4904-BA22-EF38CCEC1BE3}|WebApp\\WebApp.csproj|solutionrelative:webapp\\wwwroot\\css\\components\\_quill.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{C2633156-A535-4904-BA22-EF38CCEC1BE3}|WebApp\\WebApp.csproj|c:\\projects\\alpha-assignment\\webapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C2633156-A535-4904-BA22-EF38CCEC1BE3}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C2633156-A535-4904-BA22-EF38CCEC1BE3}|WebApp\\WebApp.csproj|c:\\projects\\alpha-assignment\\webapp\\wwwroot\\js\\popup.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{C2633156-A535-4904-BA22-EF38CCEC1BE3}|WebApp\\WebApp.csproj|solutionrelative:webapp\\wwwroot\\js\\popup.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{C2633156-A535-4904-BA22-EF38CCEC1BE3}|WebApp\\WebApp.csproj|c:\\projects\\alpha-assignment\\webapp\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{C2633156-A535-4904-BA22-EF38CCEC1BE3}|WebApp\\WebApp.csproj|solutionrelative:webapp\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C2633156-A535-4904-BA22-EF38CCEC1BE3}|WebApp\\WebApp.csproj|c:\\projects\\alpha-assignment\\webapp\\wwwroot\\js\\edit-popup.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{C2633156-A535-4904-BA22-EF38CCEC1BE3}|WebApp\\WebApp.csproj|solutionrelative:webapp\\wwwroot\\js\\edit-popup.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{C2633156-A535-4904-BA22-EF38CCEC1BE3}|WebApp\\WebApp.csproj|c:\\projects\\alpha-assignment\\webapp\\wwwroot\\js\\format-text.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{C2633156-A535-4904-BA22-EF38CCEC1BE3}|WebApp\\WebApp.csproj|solutionrelative:webapp\\wwwroot\\js\\format-text.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2633156-A535-4904-BA22-EF38CCEC1BE3}|WebApp\\WebApp.csproj|c:\\projects\\alpha-assignment\\webapp\\wwwroot\\js\\tab-toggle.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{C2633156-A535-4904-BA22-EF38CCEC1BE3}|WebApp\\WebApp.csproj|solutionrelative:webapp\\wwwroot\\js\\tab-toggle.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2633156-A535-4904-BA22-EF38CCEC1BE3}|WebApp\\WebApp.csproj|c:\\projects\\alpha-assignment\\webapp\\wwwroot\\js\\menu-toggle.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{C2633156-A535-4904-BA22-EF38CCEC1BE3}|WebApp\\WebApp.csproj|solutionrelative:webapp\\wwwroot\\js\\menu-toggle.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,79 +47,105 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "_SettingsModal.cshtml",
-              "DocumentMoniker": "C:\\Projects\\Alpha-Assignment\\WebApp\\Views\\Dashboard\\_SettingsModal.cshtml",
-              "RelativeDocumentMoniker": "WebApp\\Views\\Dashboard\\_SettingsModal.cshtml",
-              "ToolTip": "C:\\Projects\\Alpha-Assignment\\WebApp\\Views\\Dashboard\\_SettingsModal.cshtml",
-              "RelativeToolTip": "WebApp\\Views\\Dashboard\\_SettingsModal.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAGAAAAAAAAAA==",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Projects\\Alpha-Assignment\\WebApp\\Views\\Dashboard\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Views\\Dashboard\\Index.cshtml",
+              "ToolTip": "C:\\Projects\\Alpha-Assignment\\WebApp\\Views\\Dashboard\\Index.cshtml",
+              "RelativeToolTip": "WebApp\\Views\\Dashboard\\Index.cshtml",
+              "ViewState": "AgIAAIMAAAAAAAAAAAAgwIoAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-27T07:56:19.746Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "_quill.css",
-              "DocumentMoniker": "C:\\Projects\\Alpha-Assignment\\WebApp\\wwwroot\\css\\components\\_quill.css",
-              "RelativeDocumentMoniker": "WebApp\\wwwroot\\css\\components\\_quill.css",
-              "ToolTip": "C:\\Projects\\Alpha-Assignment\\WebApp\\wwwroot\\css\\components\\_quill.css",
-              "RelativeToolTip": "WebApp\\wwwroot\\css\\components\\_quill.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-04-27T07:35:52.082Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "EditModal.cshtml",
-              "DocumentMoniker": "C:\\Projects\\Alpha-Assignment\\WebApp\\Views\\Dashboard\\EditModal.cshtml",
-              "RelativeDocumentMoniker": "WebApp\\Views\\Dashboard\\EditModal.cshtml",
-              "ToolTip": "C:\\Projects\\Alpha-Assignment\\WebApp\\Views\\Dashboard\\EditModal.cshtml",
-              "RelativeToolTip": "WebApp\\Views\\Dashboard\\EditModal.cshtml",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAACcAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-27T07:16:45.73Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "edit-popup.js",
-              "DocumentMoniker": "C:\\Projects\\Alpha-Assignment\\WebApp\\wwwroot\\js\\edit-popup.js",
-              "RelativeDocumentMoniker": "WebApp\\wwwroot\\js\\edit-popup.js",
-              "ToolTip": "C:\\Projects\\Alpha-Assignment\\WebApp\\wwwroot\\js\\edit-popup.js",
-              "RelativeToolTip": "WebApp\\wwwroot\\js\\edit-popup.js",
-              "ViewState": "AgIAADgAAAAAAAAAAAAgwF4AAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-04-27T07:16:07.756Z",
+              "WhenOpened": "2025-05-01T09:16:46.374Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AddModal.cshtml",
-              "DocumentMoniker": "C:\\Projects\\Alpha-Assignment\\WebApp\\Views\\Dashboard\\AddModal.cshtml",
-              "RelativeDocumentMoniker": "WebApp\\Views\\Dashboard\\AddModal.cshtml",
-              "ToolTip": "C:\\Projects\\Alpha-Assignment\\WebApp\\Views\\Dashboard\\AddModal.cshtml",
-              "RelativeToolTip": "WebApp\\Views\\Dashboard\\AddModal.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-27T07:05:36.246Z",
+              "Title": "MustBeTrueAttribute.cs",
+              "DocumentMoniker": "C:\\Projects\\Alpha-Assignment\\WebApp\\Helpers\\MustBeTrueAttribute.cs",
+              "RelativeDocumentMoniker": "WebApp\\Helpers\\MustBeTrueAttribute.cs",
+              "ToolTip": "C:\\Projects\\Alpha-Assignment\\WebApp\\Helpers\\MustBeTrueAttribute.cs",
+              "RelativeToolTip": "WebApp\\Helpers\\MustBeTrueAttribute.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T09:09:39.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "menu-toggle.js",
+              "DocumentMoniker": "C:\\Projects\\Alpha-Assignment\\WebApp\\wwwroot\\js\\menu-toggle.js",
+              "RelativeDocumentMoniker": "WebApp\\wwwroot\\js\\menu-toggle.js",
+              "ToolTip": "C:\\Projects\\Alpha-Assignment\\WebApp\\wwwroot\\js\\menu-toggle.js",
+              "RelativeToolTip": "WebApp\\wwwroot\\js\\menu-toggle.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-04-27T20:13:57.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "tab-toggle.js",
+              "DocumentMoniker": "C:\\Projects\\Alpha-Assignment\\WebApp\\wwwroot\\js\\tab-toggle.js",
+              "RelativeDocumentMoniker": "WebApp\\wwwroot\\js\\tab-toggle.js",
+              "ToolTip": "C:\\Projects\\Alpha-Assignment\\WebApp\\wwwroot\\js\\tab-toggle.js",
+              "RelativeToolTip": "WebApp\\wwwroot\\js\\tab-toggle.js",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-04-27T20:10:48.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "format-text.js",
+              "DocumentMoniker": "C:\\Projects\\Alpha-Assignment\\WebApp\\wwwroot\\js\\format-text.js",
+              "RelativeDocumentMoniker": "WebApp\\wwwroot\\js\\format-text.js",
+              "ToolTip": "C:\\Projects\\Alpha-Assignment\\WebApp\\wwwroot\\js\\format-text.js",
+              "RelativeToolTip": "WebApp\\wwwroot\\js\\format-text.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-04-27T20:08:00.093Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "popup.js",
-              "DocumentMoniker": "C:\\Projects\\Alpha-Assignment\\WebApp\\wwwroot\\js\\popup.js",
-              "RelativeDocumentMoniker": "WebApp\\wwwroot\\js\\popup.js",
-              "ToolTip": "C:\\Projects\\Alpha-Assignment\\WebApp\\wwwroot\\js\\popup.js",
-              "RelativeToolTip": "WebApp\\wwwroot\\js\\popup.js",
-              "ViewState": "AgIAACIAAAAAAAAAAAAgwF0AAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-04-27T07:00:13.219Z",
+              "Title": "style.css",
+              "DocumentMoniker": "C:\\Projects\\Alpha-Assignment\\WebApp\\wwwroot\\css\\style.css",
+              "RelativeDocumentMoniker": "WebApp\\wwwroot\\css\\style.css",
+              "ToolTip": "C:\\Projects\\Alpha-Assignment\\WebApp\\wwwroot\\css\\style.css",
+              "RelativeToolTip": "WebApp\\wwwroot\\css\\style.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-27T20:05:53.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Projects\\Alpha-Assignment\\WebApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Projects\\Alpha-Assignment\\WebApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "WebApp\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-27T19:02:42.806Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Projects\\Alpha-Assignment\\WebApp\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Projects\\Alpha-Assignment\\WebApp\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "WebApp\\Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGcAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-27T18:56:09.464Z",
               "EditorCaption": ""
             }
           ]

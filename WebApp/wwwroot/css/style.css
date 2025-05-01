@@ -1,5 +1,3 @@
-/* Struktur inspirerad av ChatGPT, innehåll anpassat och kodat av mig. */
-
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
 
@@ -26,4 +24,3 @@
 @import url('pages/_login.css');
 @import url('pages/_projects.css');
 @import url('pages/_create.css');
-@import url('pages/_homepage.css');

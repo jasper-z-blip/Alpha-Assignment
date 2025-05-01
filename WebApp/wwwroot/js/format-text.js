@@ -1,4 +1,4 @@
-﻿// Denna kod är skriven med hjälp av diskussioner och exempel från ChatGPT.
+﻿// Denna kod är skriven med hjälp från ChatGPT.
 // Funktionen hanterar öppning av popup för projektredigering och använder Quill-editor för att redigera beskrivningen.
 // Ser att jag initierar quill två ggr, ska fixa om jag hinner (note till mig själv, ev funktion istället).
 let quill;

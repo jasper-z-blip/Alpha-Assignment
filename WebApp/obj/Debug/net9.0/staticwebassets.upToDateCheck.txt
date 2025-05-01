@@ -31,6 +31,7 @@ C:\Projects\Alpha-Assignment\WebApp\wwwroot\css\pages\_account.css
 C:\Projects\Alpha-Assignment\WebApp\wwwroot\js\settings.js
 C:\Projects\Alpha-Assignment\WebApp\wwwroot\css\pages\_start.css
 C:\Projects\Alpha-Assignment\WebApp\wwwroot\css\base\_utilities.css
+C:\Projects\Alpha-Assignment\WebApp\wwwroot\lib\jquery\dist\jquery\jquery.min.js
 C:\Projects\Alpha-Assignment\WebApp\wwwroot\images\ProjectPicture.svg
 wwwroot\css\base\_reset.css
 wwwroot\css\base\_typography.css
@@ -66,3 +67,4 @@ wwwroot\js\project-actions.js
 wwwroot\js\settings.js
 wwwroot\js\tab-toggle.js
 wwwroot\js\validations.js
+wwwroot\lib\jquery\dist\jquery\jquery.min.js

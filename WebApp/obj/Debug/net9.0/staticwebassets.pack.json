@@ -137,6 +137,10 @@
       "PackagePath": "staticwebassets\\js\\validations.js"
     },
     {
+      "Id": "C:\\Projects\\Alpha-Assignment\\WebApp\\wwwroot\\lib\\jquery\\dist\\jquery\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery\\jquery.min.js"
+    },
+    {
       "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.WebApp.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
