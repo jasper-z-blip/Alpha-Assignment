@@ -1,5 +1,5 @@
 ﻿// Kod för att hantera raderingsbekräftelse via modal.
-// Mall från ChatGPT men anpassad och implementerad av mig själv.
+// Mall från ChatGPT men anpassad och skriven av mig själv.
 
 document.addEventListener("DOMContentLoaded", function () {
     const deleteForms = document.querySelectorAll(".delete-form");

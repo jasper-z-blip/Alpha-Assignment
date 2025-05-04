@@ -1,5 +1,5 @@
 ﻿// Kod för att hantera projektredigering i en popup och Quill Editor.
-// Mall från ChatGPT men anpassad och implementerad av mig själv. (Mycket hjälp av hur jag skrev ihop popup.js)
+// Mall från ChatGPT men anpassad och skriven av mig själv. (Mycket hjälp av hur jag skrev ihop popup.js)
 
 import { validateFormInput, showValidationModal } from './validations.js';
 

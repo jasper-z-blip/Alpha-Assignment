@@ -300,8 +300,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>xb9zg75sn2</Fingerprint>
-      <Integrity>/fXWwhlvqOxFjsV5FsmSneJv5WhKv7yS7rJ3J8imEs4=</Integrity>
+      <Fingerprint>j1lwmodrog</Fingerprint>
+      <Integrity>h/j2wFTprDE3H+Kzb1ElQHnVYVbCMl5ei/W3FoWgX3A=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\style.css'))</OriginalItemSpec>
@@ -462,8 +462,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>qrb5ldvxby</Fingerprint>
-      <Integrity>KnzrXpYnFbLQiyPubcUDySwDnV3OrsohqaeSfPJOALA=</Integrity>
+      <Fingerprint>n0av56oha2</Fingerprint>
+      <Integrity>dwHUkPVld4YuGpTb4coOtIcvbDGkwukOT5V/RbbMneQ=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\confirmations.js'))</OriginalItemSpec>
@@ -480,8 +480,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>4d1bugclj5</Fingerprint>
-      <Integrity>qPmpFLZXhjlyvo2c8BI7QhILModvJfO5F351qsl8ypM=</Integrity>
+      <Fingerprint>balatwgx10</Fingerprint>
+      <Integrity>Q4fbTHvqsStKV18hw2pDVwFUQCZkcW+aJV69DeW2LLM=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\edit-popup.js'))</OriginalItemSpec>
@@ -534,8 +534,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>2f604n94dy</Fingerprint>
-      <Integrity>gg9//1FouDXQhIglFpVDh1BZ4MbYJpQism+vIs52zyc=</Integrity>
+      <Fingerprint>2yiug575ax</Fingerprint>
+      <Integrity>llC8SOAaNIPVdyLPQqWPrhxkFswbJIKI9bTmGb+7xIU=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\popup.js'))</OriginalItemSpec>
@@ -570,8 +570,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>rqy6kuksc6</Fingerprint>
-      <Integrity>nf6qeyrhPuCsytZvmKU5ZmOtniOou020lNFlKVp9Mf8=</Integrity>
+      <Fingerprint>vkt079h6zp</Fingerprint>
+      <Integrity>v1CgUDZVLdltgpQMKJFZwHfbbag8ubNSuMDwkbM44/o=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\settings.js'))</OriginalItemSpec>

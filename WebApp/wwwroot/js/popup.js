@@ -1,5 +1,5 @@
 ﻿// Ser även här att jag initierar quill två ggr, ska fixa om jag hinner (note till mig själv, ev funktion istället).
-// Mall från ChatGPT men anpassad och implementerad av mig själv.
+// Mall från ChatGPT men anpassad och skriven av mig själv.
 
 import { validateFormInput, showValidationModal } from './validations.js';
 
@@ -78,9 +78,9 @@ document.addEventListener("DOMContentLoaded", function () {
         tab.addEventListener("click", () => {
             const status = tab.getAttribute("data-status");
 
-            //ta bort active från flikarna.
+            // Tar bort active från flikarna.
             tabs.forEach(t => t.classList.remove("active"));
-            //Lägg till active på fliken användaren har klickat på. Så den väljs.
+            // Lägg till active på fliken användaren har klickat på. Så den väljs.
             tab.classList.add("active");
 
             cards.forEach(card => {

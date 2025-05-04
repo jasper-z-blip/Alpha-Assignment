@@ -1,5 +1,4 @@
-﻿// Hjälp med varningarna från chatGPt, dom läggs till om inte if-satsen uppfylls.
-document.addEventListener("DOMContentLoaded", () => {
+﻿document.addEventListener("DOMContentLoaded", () => {
     const settingsBtn = document.getElementById("settingsBtn");
 
     if (settingsBtn) {

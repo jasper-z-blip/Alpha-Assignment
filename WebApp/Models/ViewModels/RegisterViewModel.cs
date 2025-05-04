@@ -19,6 +19,7 @@ namespace WebApp.Models.ViewModels
         [Compare("Password", ErrorMessage = "Passwords do not match.")]
         public string ConfirmPassword { get; set; } = string.Empty;
 
+        // Hjälp ChatGPT, Kollar att användaren har godkänt villkoren. Alltså rutan är ikryssad och värdet blir true. Annars visas felmeddelandet.
         [Range(typeof(bool), "true", "true", ErrorMessage = "You must accept the terms.")]
         public bool AcceptTerms { get; set; }
     }
